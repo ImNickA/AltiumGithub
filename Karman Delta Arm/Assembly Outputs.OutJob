@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Assembly Outputs.OutJob
 Description=
-TargetOutputMedium=PDF3D
+TargetOutputMedium=MBI
 VariantName=[No Variations]
 VariantScope=0
 CurrentConfigurationName=
-TargetPrinter=Virtual Printer
+TargetPrinter=Brother MFC-J6930DW Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -64,7 +64,7 @@ OutputEnabled1_OutputMedium10=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.73|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration1_Name1=OutputConfigurationParameter1
-Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=True|ExpandPort=True|ExpandSheetNum=True|ExpandDocNum=True|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
+Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=True|ExpandPort=True|ExpandSheetNum=True|ExpandDocNum=True|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=All SCH Documents
 OutputType2=Pick Place
 OutputName2=Generates pick and place files
 OutputCategory2=Assembly
@@ -83,7 +83,7 @@ OutputEnabled2_OutputMedium9=0
 OutputEnabled2_OutputMedium10=0
 OutputDefault2=0
 Configuration2_Name1=OutputConfigurationParameter1
-Configuration2_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=True
+Configuration2_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=True|DocumentPath=C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\Circular PCB - Radial.PcbDoc
 OutputType3=Pick Place
 OutputName3=Generates pick and place files
 OutputCategory3=Assembly
@@ -122,15 +122,15 @@ OutputEnabled4_OutputMedium10=0
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.17|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration4_Name1=OutputConfigurationParameter1
-Configuration4_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=13385827|PrintAreaLowerLeftCornerY=33070866|PrintAreaUpperRightCornerX=183385827|PrintAreaUpperRightCornerY=143070866|Record=PcbPrintView
+Configuration4_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=13385827|PrintAreaLowerLeftCornerY=33070866|PrintAreaUpperRightCornerX=183385827|PrintAreaUpperRightCornerY=143070866|Record=PcbPrintView|DocumentPath=C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\Circular PCB - Radial.PcbDoc
 Configuration4_Name2=OutputConfigurationParameter2
-Configuration4_Item2=IncludeBottomLayerComponents=False|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Top Assembly Drawing|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration4_Item2=IncludeBottomLayerComponents=False|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Top Assembly Drawing|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\Circular PCB - Radial.PcbDoc
 Configuration4_Name3=OutputConfigurationParameter3
-Configuration4_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Hidden|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration4_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Hidden|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\Circular PCB - Radial.PcbDoc
 Configuration4_Name4=OutputConfigurationParameter4
-Configuration4_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=200000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration4_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=200000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\Circular PCB - Radial.PcbDoc
 Configuration4_Name5=OutputConfigurationParameter5
-Configuration4_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration4_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\Circular PCB - Radial.PcbDoc
 PcbPrintPreferences4=
 OutputType5=ODB
 OutputName5=ODB++ Files
@@ -331,22 +331,22 @@ OutputEnabled11_OutputMedium10=0
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.17|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration11_Name1=OutputConfigurationParameter1
-Configuration11_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=60629921|PrintAreaLowerLeftCornerY=33070866|PrintAreaUpperRightCornerX=230629921|PrintAreaUpperRightCornerY=143070866|Record=PcbPrintView
+Configuration11_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=60629921|PrintAreaLowerLeftCornerY=33070866|PrintAreaUpperRightCornerX=230629921|PrintAreaUpperRightCornerY=143070866|Record=PcbPrintView|DocumentPath=C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\Circular PCB - Radial.PcbDoc
 Configuration11_Name2=OutputConfigurationParameter2
-Configuration11_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=False|IncludeViewports=True|Index=0|Mirror=True|Name=Bottom Assembly Drawing|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration11_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=False|IncludeViewports=True|Index=0|Mirror=True|Name=Bottom Assembly Drawing|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\Circular PCB - Radial.PcbDoc
 Configuration11_Name3=OutputConfigurationParameter3
-Configuration11_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Hidden|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration11_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Hidden|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\Circular PCB - Radial.PcbDoc
 Configuration11_Name4=OutputConfigurationParameter4
-Configuration11_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=200000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration11_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=200000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\Circular PCB - Radial.PcbDoc
 Configuration11_Name5=OutputConfigurationParameter5
-Configuration11_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration11_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\Circular PCB - Radial.PcbDoc
 PcbPrintPreferences11=
 OutputType12=PDF3D
 OutputName12=Export PDF3D
 OutputCategory12=Export
 OutputDocumentPath12=
 OutputVariantName12=
-OutputEnabled12=1
+OutputEnabled12=0
 OutputEnabled12_OutputMedium1=0
 OutputEnabled12_OutputMedium2=0
 OutputEnabled12_OutputMedium3=0
@@ -366,7 +366,7 @@ OutputName13=MBI
 OutputCategory13=Report
 OutputDocumentPath13=
 OutputVariantName13=
-OutputEnabled13=0
+OutputEnabled13=1
 OutputEnabled13_OutputMedium1=0
 OutputEnabled13_OutputMedium2=0
 OutputEnabled13_OutputMedium3=0
@@ -490,21 +490,25 @@ OutputDefault17=0
 PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration17_Name1=ColumnNameFormat
 Configuration17_Item1=CaptionAsName
-Configuration17_Name2=Filter
-Configuration17_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
-Configuration17_Name3=General
-Configuration17_Item3=OpenExported=True|AddToProject=False|ForceFit=False|NotFitted=True|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Altium SANDBOX\Altium Templates\BOM Template - inc supliers.xlsx|BatchMode=5|FormWidth=1485|FormHeight=661|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=GBP
-Configuration17_Name4=GroupOrder
-Configuration17_Item4=DesignItemId=True|Fitted=True
-Configuration17_Name5=OutputConfigurationParameter1
-Configuration17_Item5=???????%????
-Configuration17_Name6=SortOrder
-Configuration17_Item6=Designator=Up
-Configuration17_Name7=VisibleOrder
-Configuration17_Item7=Description=225|Designator=155|Quantity=100|Manufacturer 1=127|Manufacturer Part Number 1=175|Supplier 1=90|Supplier Part Number 1=154|Fitted=89|Note=100
+Configuration17_Name2=General
+Configuration17_Item2=OpenExported=True|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=True|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\Ancillary Data\Altium Templates\BOM Template.xlsx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1485|FormHeight=661|SupplierProdQty=5|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=GBP|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|BomSetName=
+Configuration17_Name3=GroupOrder
+Configuration17_Item3=DesignItemId=True|Fitted=True
+Configuration17_Name4=OutputConfigurationParameter1
+Configuration17_Item4=???????%????
+Configuration17_Name5=SortOrder
+Configuration17_Item5=Designator=Up
+Configuration17_Name6=VisibleOrder
+Configuration17_Item6=Description=225|Designator=155|Quantity=100|Manufacturer 1=127|Manufacturer Part Number 1=175|Supplier 1=90|Supplier Part Number 1=154|Fitted=89|Note=100
+Configuration17_Name7=VisibleOrder_Base
+Configuration17_Item7=Line #=52|Description=399|Designator=120|Quantity=64|Value=54|ManuPartNo=100|Manufacturer=120|Manuf Part No=98|Manufacturer 1=120|Manufacturer Part Number 1=161|Manufacturer Lifecycle 1=141|Supplier 1=99|Supplier Part Number 1=186|Supplier Unit Price 1=121|Supplier Subtotal 1=115
+Configuration17_Name8=VisibleOrder_Consolidated
+Configuration17_Item8=Line #=54|Description=100|Designator=100|Quantity=67|Value=56|Manufacturer 1=120|Manufacturer Part Number 1=161|Manufacturer Lifecycle 1=141|Supplier 1=99|Supplier Part Number 1=186|Supplier Unit Price 1=121|Supplier Subtotal 1=115
+Configuration17_Name9=VisibleOrder_Flat
+Configuration17_Item9=Line #=54|Comment=100|Description=100|Designator=80|Revision ID=132|Revision State=133|Revision Status=101|Manufacturer 1=120|Manufacturer Part Number 1=161|Manufacturer Lifecycle 1=141|Supplier 1=99|Supplier Part Number 1=186|Supplier Unit Price 1=121|Supplier Subtotal 1=115
 
 [PublishSettings]
-OutputFilePath2=C:\Altium SANDBOX\PCB Designs\000010 OOC 9 Valve Base Board\000010 Rev A1\Assembly Outputs\Schematic\00010 SCM Rev A1.PDF
+OutputFilePath2=C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\Assembly Outputs\Schematic\KDA Rev A1.PDF
 ReleaseManaged2=0
 OutputBasePath2=Assembly Outputs\
 OutputPathMedia2=[Media Name]
@@ -558,7 +562,7 @@ ShowComponentParameters3=1
 GlobalBookmarks3=0
 PDFACompliance3=Disabled
 PDFVersion3=Default
-OutputFilePath4=C:\Altium SANDBOX\PCB Designs\000020 OOC Controller Main Board\000020 Rev A1\Assembly Outputs\Pick and Place (Variants)\
+OutputFilePath4=C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\Assembly Outputs\Pick and Place (Variants)\
 ReleaseManaged4=0
 OutputBasePath4=Assembly Outputs\
 OutputPathMedia4=[Media Name]
@@ -570,7 +574,7 @@ OutputFileName4=
 OutputFileNameMulti4==a_AssemDwgNo+' Pick and Place (Variants)'
 UseOutputNameForMulti4=0
 OutputFileNameSpecial4=
-OpenOutput4=1
+OpenOutput4=0
 OutputFilePath5=C:\Altium SANDBOX\PCB Designs\000010 OOC 9 Valve Base Board\000010 Rev A1\Assembly Outputs\Pick and Place (All)\
 ReleaseManaged5=0
 OutputBasePath5=Assembly Outputs\
@@ -610,7 +614,7 @@ OutputFileNameMulti7==a_PcbPartNo
 UseOutputNameForMulti7=0
 OutputFileNameSpecial7=
 OpenOutput7=0
-OutputFilePath8=C:\Altium SANDBOX\PCB Designs\000020 OOC Controller Main Board\000020 Rev A1\Assembly Outputs\Bill of Materials\
+OutputFilePath8=C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\Assembly Outputs\Bill of Materials\
 ReleaseManaged8=0
 OutputBasePath8=Assembly Outputs\
 OutputPathMedia8=Bill of Materials
@@ -636,7 +640,7 @@ OutputFileNameMulti9==a_AssemMbiNo+' Assembly Master Build Instruction'
 UseOutputNameForMulti9=0
 OutputFileNameSpecial9=
 OpenOutput9=1
-OutputFilePath10=C:\Altium SANDBOX\PCB Designs\000010 OOC 9 Valve Base Board\000010 Rev A1\Assembly Outputs\PDF3D\
+OutputFilePath10=C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\Assembly Outputs\PDF3D\
 ReleaseManaged10=0
 OutputBasePath10=Assembly Outputs\
 OutputPathMedia10=[Media Name]
@@ -665,12 +669,12 @@ PDFACompliance10=Disabled
 PDFVersion10=Default
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Altium SANDBOX\PCB Designs\000010 OOC 9 Valve Base Board\000010 Rev A1\Assembly Outputs\Schematic\00010 SCM Rev A1.PDF
+RelativeOutputPath2=C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\Assembly Outputs\Schematic\KDA Rev A1.PDF
 OpenOutputs2=1
 RelativeOutputPath3=C:\Users\Adrian\Documents\CN-Bio\Altium templates\Default project example\Assembly Outputs\Assembly Drawing\xxxxx Rev A1.PDF
 OpenOutputs3=1
-RelativeOutputPath4=C:\Altium SANDBOX\PCB Designs\000020 OOC Controller Main Board\000020 Rev A1\Assembly Outputs\Pick and Place (Variants)\
-OpenOutputs4=1
+RelativeOutputPath4=C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\Assembly Outputs\Pick and Place (Variants)\
+OpenOutputs4=0
 AddToProject4=0
 TimestampFolder4=0
 UseOutputName4=1
@@ -709,7 +713,7 @@ OpenGerberOutput7=0
 OpenNCDrillOutput7=0
 OpenIPCOutput7=0
 EnableReload7=0
-RelativeOutputPath8=C:\Altium SANDBOX\PCB Designs\000020 OOC Controller Main Board\000020 Rev A1\Assembly Outputs\Bill of Materials\
+RelativeOutputPath8=C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\Assembly Outputs\Bill of Materials\
 OpenOutputs8=1
 AddToProject8=0
 TimestampFolder8=0
@@ -729,6 +733,6 @@ OpenGerberOutput9=0
 OpenNCDrillOutput9=0
 OpenIPCOutput9=0
 EnableReload9=0
-RelativeOutputPath10=C:\Altium SANDBOX\PCB Designs\000010 OOC 9 Valve Base Board\000010 Rev A1\Assembly Outputs\PDF3D\
+RelativeOutputPath10=C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\Assembly Outputs\PDF3D\
 OpenOutputs10=1
 
