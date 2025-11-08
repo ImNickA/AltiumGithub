@@ -1,0 +1,2248 @@
+UNITS=MM
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+@2 .no_pop
+@3 .comp_ignore
+@4 .comp_variant_list
+@5 .placement_layer
+
+#
+#Component attribute text strings
+#
+&0 top_layer
+
+# CMP 0
+CMP 9 -53.49999968 6.0000007 0 N Z6 * ;0=2,1=0.0000,5=0
+PRP Class 'Free pads'
+PRP Created '14/12/2020'
+PRP Last_Updated '14/12/2020'
+PRP Source 'Misc_Breakout - 3 hole - short route'
+PRP Supplier_1 'Misc'
+TOP 0 -54.69999982 6.2000003 0 N 0 9 1
+TOP 1 -53.49999968 6.2000003 0 N 0 8 2
+TOP 2 -52.29999954 6.2000003 0 N 0 7 3
+#
+# CMP 1
+CMP 9 -40.99999928 20.00000064 270 N Z5 * ;0=2,1=0.0000,5=0
+PRP Class 'Free pads'
+PRP Created '14/12/2020'
+PRP Last_Updated '14/12/2020'
+PRP Source 'Misc_Breakout - 3 hole - short route'
+PRP Supplier_1 'Misc'
+TOP 0 -41.19999888 18.8000005 270 N 0 12 1
+TOP 1 -41.19999888 20.00000064 270 N 0 11 2
+TOP 2 -41.19999888 21.20000078 270 N 0 10 3
+#
+# CMP 2
+CMP 9 -50.9999996 31.9999995 180 N Z4 * ;0=2,1=0.0000,5=0
+PRP Class 'Free pads'
+PRP Created '14/12/2020'
+PRP Last_Updated '14/12/2020'
+PRP Source 'Misc_Breakout - 3 hole - short route'
+PRP Supplier_1 'Misc'
+TOP 0 -49.79999946 31.7999999 180 N 0 6 1
+TOP 1 -50.9999996 31.7999999 180 N 0 2 2
+TOP 2 -52.19999974 31.7999999 180 N 0 1 3
+#
+# CMP 3
+CMP 16 -52.79999854 15.69999908 0 N U5 CAN_Transceiver ;0=1,1=0.0000,5=0
+PRP Manuf_Part_No 'ISO1042DWV'
+PRP RoHS_Compliant 'Yes'
+TOP 0 -58.00052154 17.60499908 0 N 12 3 1
+TOP 1 -58.00052154 16.33499908 0 N 2 3 2
+TOP 2 -58.00052154 15.06499908 0 N 1 2 3
+TOP 3 -58.00052154 13.79499908 0 N 10 6 4
+TOP 4 -47.59947554 13.79499908 0 N 8 16 5
+TOP 5 -47.59947554 15.06499908 0 N 5 2 6
+TOP 6 -47.59947554 16.33499908 0 N 6 2 7
+TOP 7 -47.59947554 17.60499908 0 N 9 0 8
+#
+# CMP 4
+CMP 24 -45.80000238 27.50000088 0 N U4 5V_Regulator ;0=1,1=1.7000,5=0
+PRP Class 'IC LDO Regulator'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\MIC5239.pdf'
+PRP Cost_1+ '3.22'
+PRP Cost_1K+ '1.3'
+PRP Created '23/01/2014'
+PRP Last_Updated '23/01/2014'
+PRP Life 'V'
+PRP Manufacturer 'Micrel'
+PRP ManuPartNo 'MIC5239-5.0YS'
+PRP RoHS 'Y'
+PRP Source 'FEC210-0330'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '2100330'
+TOP 0 -48.75000156 29.80000136 270 N 11 1 1
+TOP 1 -48.75000156 27.50000088 270 N 8 9 2
+TOP 2 -48.75000156 25.2000004 270 N 9 4 3
+TOP 3 -42.85000066 27.50000088 270 N 8 10 4
+#
+# CMP 5
+CMP 20 -58.99999884 30.00000096 270 N TP15 0V ;0=2,1=4.5720,5=0
+PRP Class 'Connector'
+PRP Cost_1+ '0.2489'
+PRP Cost_1K+ '0.2489'
+PRP Created '30/05/2013'
+PRP Last_Updated '16/12/2015'
+PRP Life 'V'
+PRP Manufacturer 'Keystone'
+PRP ManuPartNo '5001'
+PRP Orient 'Vertical'
+PRP Pin_Count '1'
+PRP RoHS 'Y'
+PRP Source 'FEC146-3077'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1463077'
+TOP 0 -58.99999884 30.00000096 270 N 8 8 1
+#
+# CMP 6
+CMP 21 -54.99999922 30.00000096 270 N TP14 +9V ;0=2,1=4.5720,5=0
+PRP Class 'Connector'
+PRP Cost_1+ '0.2489'
+PRP Cost_1K+ '0.2489'
+PRP Created '30/05/2013'
+PRP Last_Updated '16/12/2015'
+PRP Life 'V'
+PRP Manufacturer 'Keystone'
+PRP ManuPartNo '5000'
+PRP Orient 'Vertical'
+PRP Pin_Count '1'
+PRP RoHS 'Y'
+PRP Source 'FEC146-3076'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1463076'
+TOP 0 -54.99999922 30.00000096 270 N 11 0 1
+#
+# CMP 7
+CMP 6 -62.39999966 15.59999928 270 N J9 Serial_Debug ;0=2,1=7.7000,5=0
+PRP Class 'Connector'
+PRP Cost_1+ '0.26'
+PRP Cost_1K+ '0.24'
+PRP Created '05/06/2013'
+PRP Last_Updated '05/06/2013'
+PRP Life 'V'
+PRP Manufacturer 'JST'
+PRP ManuPartNo 'B04B-PASK-1 (LF) (SN)'
+PRP Orient 'Vertical'
+PRP Pin_Count '4'
+PRP Pitch '2mm'
+PRP RoHS 'Y'
+PRP Source 'RS512-8608'
+PRP Supplier_1 'RSComponents'
+PRP Supplier_Part_Number_1 '512-8608'
+TOP 0 -62.39999966 18.6000009 270 N 12 1 1
+TOP 1 -62.39999966 16.59999982 270 N 4 0 2
+TOP 2 -62.39999966 14.59999874 270 N 3 0 3
+TOP 3 -62.39999966 12.6000002 270 N 10 8 4
+TOP 4 -64.0999988 20.10000044 270 N 0 5 11
+#
+# CMP 8
+CMP 7 -44.2000005 15.70000162 270 N J6 CAN_To_Main_PCB ;0=2,1=7.7000,5=0
+PRP Class 'Connector'
+PRP Cost_1+ '0.55'
+PRP Cost_1K+ '0.2'
+PRP Created '21/06/2013'
+PRP Last_Updated '21/06/2013'
+PRP Life 'V'
+PRP Manufacturer 'JST'
+PRP ManuPartNo 'B06B-PASK-1 (LF) (SN)'
+PRP Orient 'Vertical'
+PRP Pin_Count '6'
+PRP Pitch '2mm'
+PRP RoHS 'Y'
+PRP Source 'FEC183-0743'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1830743'
+TOP 0 -44.2000005 20.69999924 270 N 9 1 1
+TOP 1 -44.2000005 18.7000007 270 N 9 2 2
+TOP 2 -44.2000005 16.69999962 270 N 6 1 3
+TOP 3 -44.2000005 14.70000108 270 N 5 1 4
+TOP 4 -44.2000005 12.7 270 N 8 6 5
+TOP 5 -44.2000005 10.69999892 270 N 8 7 6
+TOP 6 -45.89999964 22.19999878 270 N 0 0 11
+#
+# CMP 9
+CMP 10 -58.10000064 19.5999989 270 N C18 * ;0=1,1=0.8000,5=0
+PRP Class 'Capacitor MLC'
+PRP Cost_1+ '0.064'
+PRP Cost_1K+ '0.039'
+PRP Created '25/01/2013'
+PRP Dielectric 'X7R'
+PRP Last_Updated '25/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Murata'
+PRP ManuPartNo 'GRM188R71H104KA93D'
+PRP RoHS 'Y'
+PRP Source 'FEC882-0023'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '8820023'
+PRP Tolerance '10%'
+PRP Value '100nF'
+PRP Voltage '50V'
+TOP 0 -58.10000064 18.97499888 180 N 12 2 1
+TOP 1 -58.10000064 20.22499892 180 N 10 7 2
+#
+# CMP 10
+CMP 11 -49.50000006 21.7750009 90 N C17 * ;0=1,1=1.4500,5=0
+PRP Class 'Capacitor MLC'
+PRP Cost_1+ '0.189'
+PRP Cost_1K+ '0.046'
+PRP Created '21/12/2016'
+PRP Dielectric 'X7R'
+PRP Last_Updated '21/12/2016'
+PRP Life 'V'
+PRP Manufacturer 'Murata'
+PRP ManuPartNo 'GRM21BR71A106KE51L'
+PRP RoHS 'Y'
+PRP Source 'Mouser81-GRM21BR71A106KE51'
+PRP Supplier_1 'Mouser'
+PRP Supplier_Part_Number_1 '81-GRM21BR71A106KE51'
+PRP Tolerance '10%'
+PRP Value '10uF'
+PRP Voltage '10V'
+TOP 0 -49.50000006 22.75000022 0 N 9 3 1
+TOP 1 -49.50000006 20.79999904 0 N 8 11 2
+#
+# CMP 11
+CMP 10 -47.59999878 19.3999993 270 N C16 * ;0=1,1=0.8000,5=0
+PRP Class 'Capacitor MLC'
+PRP Cost_1+ '0.064'
+PRP Cost_1K+ '0.039'
+PRP Created '25/01/2013'
+PRP Dielectric 'X7R'
+PRP Last_Updated '25/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Murata'
+PRP ManuPartNo 'GRM188R71H104KA93D'
+PRP RoHS 'Y'
+PRP Source 'FEC882-0023'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '8820023'
+PRP Tolerance '10%'
+PRP Value '100nF'
+PRP Voltage '50V'
+TOP 0 -47.59999878 18.77499928 180 N 9 5 1
+TOP 1 -47.59999878 20.02499932 180 N 8 15 2
+#
+# CMP 12
+CMP 10 -51.3999988 28.70000102 90 N C15 * ;0=1,1=0.8000,5=0
+PRP Class 'Capacitor MLC'
+PRP Cost_1+ '0.064'
+PRP Cost_1K+ '0.039'
+PRP Created '25/01/2013'
+PRP Dielectric 'X7R'
+PRP Last_Updated '25/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Murata'
+PRP ManuPartNo 'GRM188R71H104KA93D'
+PRP RoHS 'Y'
+PRP Source 'FEC882-0023'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '8820023'
+PRP Tolerance '10%'
+PRP Value '100nF'
+PRP Voltage '50V'
+TOP 0 -51.3999988 29.32500104 0 N 11 2 1
+TOP 1 -51.3999988 28.075001 0 N 8 12 2
+#
+# CMP 13
+CMP 22 20.69999924 4.60000096 90 N R14 * ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\Yageo RC_L Series.pdf'
+PRP Cost_1+ '0.074'
+PRP Cost_1K+ '0.002'
+PRP Created '08/06/2018'
+PRP Last_Updated '08/06/2018'
+PRP Life 'V'
+PRP Manufacturer 'Yageo'
+PRP ManuPartNo 'RC0603FR-0762RL'
+PRP Power '100mW'
+PRP RoHS 'Y'
+PRP Source 'Mouser603-RC0603FR-0762RL'
+PRP Supplier_1 'Mouser'
+PRP Supplier_Part_Number_1 '603-RC0603FR-0762RL'
+PRP Tolerance '1%'
+PRP Value '62R'
+PRP Voltage '75V'
+TOP 0 20.69999924 5.3000021 0 N 13 2 1
+TOP 1 20.69999924 3.90000236 0 N 18 2 2
+#
+# CMP 14
+CMP 22 19.3999993 4.60000096 90 N R13 Line_Termination ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\Yageo RC_L Series.pdf'
+PRP Cost_1+ '0.074'
+PRP Cost_1K+ '0.002'
+PRP Created '08/06/2018'
+PRP Last_Updated '08/06/2018'
+PRP Life 'V'
+PRP Manufacturer 'Yageo'
+PRP ManuPartNo 'RC0603FR-0762RL'
+PRP Power '100mW'
+PRP RoHS 'Y'
+PRP Source 'Mouser603-RC0603FR-0762RL'
+PRP Supplier_1 'Mouser'
+PRP Supplier_Part_Number_1 '603-RC0603FR-0762RL'
+PRP Tolerance '1%'
+PRP Value '62R'
+PRP Voltage '75V'
+TOP 0 19.3999993 5.3000021 0 N 13 1 1
+TOP 1 19.3999993 3.90000236 0 N 19 2 2
+#
+# CMP 15
+CMP 10 17.99999956 4.60000096 90 N C14 * ;0=1,1=0.8000,5=0
+PRP Class 'Capacitor MLC'
+PRP Cost_1+ '0.064'
+PRP Cost_1K+ '0.039'
+PRP Created '25/01/2013'
+PRP Dielectric 'X7R'
+PRP Last_Updated '25/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Murata'
+PRP ManuPartNo 'GRM188R71H104KA93D'
+PRP RoHS 'Y'
+PRP Source 'FEC882-0023'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '8820023'
+PRP Tolerance '10%'
+PRP Value '100nF'
+PRP Voltage '50V'
+TOP 0 17.99999956 5.22500098 0 N 13 0 1
+TOP 1 17.99999956 3.97500094 0 N 97 10 2
+#
+# CMP 16
+CMP 16 20.0349993 -8.60052382 270 N U3A CAN_Transceiver ;0=1,1=0.0000,5=0
+PRP Manuf_Part_No 'ISO1042DWV'
+PRP RoHS_Compliant 'Yes'
+TOP 0 18.1299993 -13.80104682 270 N 127 14 1
+TOP 1 19.3999993 -13.80104682 270 N 17 3 2
+TOP 2 20.6699993 -13.80104682 270 N 15 2 3
+TOP 3 21.9399993 -13.80104682 270 N 126 31 4
+TOP 4 21.9399993 -3.40000082 270 N 97 11 5
+TOP 5 20.6699993 -3.40000082 270 N 18 3 6
+TOP 6 19.3999993 -3.40000082 270 N 19 3 7
+TOP 7 18.1299993 -3.40000082 270 N 98 5 8
+#
+# CMP 17
+CMP 9 -53.49999968 3.99999962 180 N Z2 * ;0=2,1=0.0000,5=0
+PRP Class 'Free pads'
+PRP Created '14/12/2020'
+PRP Last_Updated '14/12/2020'
+PRP Source 'Misc_Breakout - 3 hole - short route'
+PRP Supplier_1 'Misc'
+TOP 0 -52.29999954 3.80000002 180 N 0 4 1
+TOP 1 -53.49999968 3.80000002 180 N 0 3 2
+TOP 2 -54.69999982 3.80000002 180 N 0 22 3
+#
+# CMP 18
+CMP 9 -41.99999982 -14.59999874 270 N Z1 * ;0=2,1=0.0000,5=0
+PRP Class 'Free pads'
+PRP Created '14/12/2020'
+PRP Last_Updated '14/12/2020'
+PRP Source 'Misc_Breakout - 3 hole - short route'
+PRP Supplier_1 'Misc'
+TOP 0 -42.19999942 -15.79999888 270 N 0 21 1
+TOP 1 -42.19999942 -14.59999874 270 N 0 20 2
+TOP 2 -42.19999942 -13.3999986 270 N 0 25 3
+#
+# CMP 19
+CMP 14 -46.99999998 -9.09999958 270 N J4B Ancillaries ;0=1,1=2.0000,5=0
+PRP Class 'Connector'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\Hirose FH12 Series.pdf'
+PRP Cost_1+ '1.02'
+PRP Cost_1K+ '0.563'
+PRP Created '28/02/2020'
+PRP Last_Updated '28/02/2020'
+PRP Life 'V'
+PRP Manufacturer 'Hirose'
+PRP ManuPartNo 'FH12-10S-0.5SH(55)'
+PRP Orient 'Horizontal'
+PRP Pin_Count '10'
+PRP RoHS 'Y'
+PRP Source 'FEC1324540'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1324540'
+TOP 0 -46.99999744 -13.24999636 90 N 0 32 0
+TOP 1 -46.99999998 -4.95000026 90 N 0 31 0
+TOP 2 -50.2500011 -11.34999762 90 N 21 6 1
+TOP 3 -50.24999348 -10.84999862 90 N 20 0 2
+TOP 4 -50.25000364 -10.34999708 90 N 21 7 3
+TOP 5 -50.25000364 -9.84999808 90 N 28 0 4
+TOP 6 -50.25000364 -9.34999908 90 N 21 13 5
+TOP 7 -50.24999856 -8.84999754 90 N 27 2 6
+TOP 8 -50.25000872 -8.34999854 90 N 21 12 7
+TOP 9 -50.2500011 -7.849997 90 N 26 2 8
+TOP 10 -50.2500011 -7.349998 90 N 21 11 9
+TOP 11 -50.24999348 -6.849999 90 N 25 1 10
+#
+# CMP 20
+CMP 14 -47.09999978 -25.2000004 270 N J4A Ancillaries ;0=1,1=2.0000,5=0
+PRP Class 'Connector'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\Hirose FH12 Series.pdf'
+PRP Cost_1+ '1.02'
+PRP Cost_1K+ '0.563'
+PRP Created '28/02/2020'
+PRP Last_Updated '28/02/2020'
+PRP Life 'V'
+PRP Manufacturer 'Hirose'
+PRP ManuPartNo 'FH12-10S-0.5SH(55)'
+PRP Orient 'Horizontal'
+PRP Pin_Count '10'
+PRP RoHS 'Y'
+PRP Source 'FEC1324540'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1324540'
+TOP 0 -47.09999724 -29.34999718 90 N 0 33 0
+TOP 1 -47.09999978 -21.05000108 90 N 0 34 0
+TOP 2 -50.3500009 -27.44999844 90 N 23 6 1
+TOP 3 -50.34999328 -26.94999944 90 N 22 0 2
+TOP 4 -50.35000344 -26.4499979 90 N 23 7 3
+TOP 5 -50.35000344 -25.9499989 90 N 33 0 4
+TOP 6 -50.35000344 -25.4499999 90 N 23 13 5
+TOP 7 -50.34999836 -24.94999836 90 N 31 2 6
+TOP 8 -50.35000852 -24.44999936 90 N 23 12 7
+TOP 9 -50.3500009 -23.94999782 90 N 30 2 8
+TOP 10 -50.3500009 -23.44999882 90 N 23 11 9
+TOP 11 -50.34999328 -22.94999982 90 N 29 1 10
+#
+# CMP 21
+CMP 14 -21.20000078 7.94999934 90 N J5B Ancillaries ;0=1,1=2.0000,5=0
+PRP Class 'Connector'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\Hirose FH12 Series.pdf'
+PRP Cost_1+ '1.02'
+PRP Cost_1K+ '0.563'
+PRP Created '28/02/2020'
+PRP Last_Updated '28/02/2020'
+PRP Life 'V'
+PRP Manufacturer 'Hirose'
+PRP ManuPartNo 'FH12-10S-0.5SH(55)'
+PRP Orient 'Horizontal'
+PRP Pin_Count '10'
+PRP RoHS 'Y'
+PRP Source 'FEC1324540'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1324540'
+TOP 0 -21.20000332 12.09999612 270 N 0 37 0
+TOP 1 -21.20000078 3.80000002 270 N 0 30 0
+TOP 2 -17.94999966 10.19999738 270 N 101 14 1
+TOP 3 -17.95000728 9.69999838 270 N 34 42 2
+TOP 4 -17.94999712 9.19999684 270 N 52 1 3
+TOP 5 -17.94999712 8.69999784 270 N 34 43 4
+TOP 6 -17.94999712 8.19999884 270 N 54 2 5
+TOP 7 -17.9500022 7.6999973 270 N 34 45 6
+TOP 8 -17.94999204 7.1999983 270 N 99 2 7
+TOP 9 -17.94999966 6.69999676 270 N 34 44 8
+TOP 10 -17.94999966 6.19999776 270 N 32 2 9
+TOP 11 -17.95000728 5.69999876 270 N 34 38 10
+#
+# CMP 22
+CMP 14 -21.19999824 -7.9499968 90 N J5A Ancillaries ;0=1,1=2.0000,5=0
+PRP Class 'Connector'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\Hirose FH12 Series.pdf'
+PRP Cost_1+ '1.02'
+PRP Cost_1K+ '0.563'
+PRP Created '28/02/2020'
+PRP Last_Updated '28/02/2020'
+PRP Life 'V'
+PRP Manufacturer 'Hirose'
+PRP ManuPartNo 'FH12-10S-0.5SH(55)'
+PRP Orient 'Horizontal'
+PRP Pin_Count '10'
+PRP RoHS 'Y'
+PRP Source 'FEC1324540'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1324540'
+TOP 0 -21.20000078 -3.80000002 270 N 0 26 0
+TOP 1 -21.19999824 -12.09999612 270 N 0 38 0
+TOP 2 -17.94999712 -5.69999876 270 N 127 15 1
+TOP 3 -17.95000474 -6.19999776 270 N 126 39 2
+TOP 4 -17.94999458 -6.6999993 270 N 51 1 3
+TOP 5 -17.94999458 -7.1999983 270 N 126 48 4
+TOP 6 -17.94999458 -7.6999973 270 N 53 2 5
+TOP 7 -17.94999966 -8.19999884 270 N 126 40 6
+TOP 8 -17.9499895 -8.69999784 270 N 100 1 7
+TOP 9 -17.94999712 -9.19999938 270 N 126 44 8
+TOP 10 -17.94999712 -9.69999838 270 N 24 2 9
+TOP 11 -17.95000474 -10.19999738 270 N 126 49 10
+#
+# CMP 23
+CMP 22 -15.75000152 11.20999536 180 N R12D * ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\Panasonic Resistors.pdf'
+PRP Cost_1+ '0.237'
+PRP Cost_1K+ '0.053'
+PRP Created '27/02/2018'
+PRP Last_Updated '27/02/2018'
+PRP Life 'V'
+PRP Manufacturer 'Panasonic'
+PRP ManuPartNo 'ERA3AEB103V'
+PRP Power '100mW'
+PRP RoHS 'Y'
+PRP Source 'PanasonicERA3AEB103V'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1577619'
+PRP Tolerance '0.1%'
+PRP Value '10K'
+PRP Voltage '75V'
+TOP 0 -15.05000038 11.20999536 90 N 34 58 1
+TOP 1 -16.45000012 11.20999536 90 N 35 3 2
+#
+# CMP 24
+CMP 22 -15.75000152 3.95999716 0 N R11D * ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\Panasonic Resistors.pdf'
+PRP Cost_1+ '0.0538'
+PRP Cost_1K+ '0.0349'
+PRP Created '19/09/2025'
+PRP Last_Updated '19/09/2025'
+PRP Life 'V'
+PRP Manufacturer 'Panasonic'
+PRP ManuPartNo 'ERA3AEB303V'
+PRP Power '100mW'
+PRP RoHS 'Y'
+PRP Source 'PanasonicERA3AEB303V'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1670196'
+PRP Tolerance '0.1%'
+PRP Value '30K'
+PRP Voltage '75V'
+TOP 0 -16.45000266 3.95999716 270 N 35 2 1
+TOP 1 -15.05000292 3.95999716 270 N 103 4 2
+#
+# CMP 25
+CMP 22 -3.75000012 15.74999898 180 N R12C * ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\Panasonic Resistors.pdf'
+PRP Cost_1+ '0.237'
+PRP Cost_1K+ '0.053'
+PRP Created '27/02/2018'
+PRP Last_Updated '27/02/2018'
+PRP Life 'V'
+PRP Manufacturer 'Panasonic'
+PRP ManuPartNo 'ERA3AEB103V'
+PRP Power '100mW'
+PRP RoHS 'Y'
+PRP Source 'PanasonicERA3AEB103V'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1577619'
+PRP Tolerance '0.1%'
+PRP Value '10K'
+PRP Voltage '75V'
+TOP 0 -3.04999898 15.74999898 90 N 34 60 1
+TOP 1 -4.44999872 15.74999898 90 N 36 3 2
+#
+# CMP 26
+CMP 22 -3.75000012 8.50000078 0 N R11C * ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\Panasonic Resistors.pdf'
+PRP Cost_1+ '0.0538'
+PRP Cost_1K+ '0.0349'
+PRP Created '19/09/2025'
+PRP Last_Updated '19/09/2025'
+PRP Life 'V'
+PRP Manufacturer 'Panasonic'
+PRP ManuPartNo 'ERA3AEB303V'
+PRP Power '100mW'
+PRP RoHS 'Y'
+PRP Source 'PanasonicERA3AEB303V'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1670196'
+PRP Tolerance '0.1%'
+PRP Value '30K'
+PRP Voltage '75V'
+TOP 0 -4.45000126 8.50000078 270 N 36 2 1
+TOP 1 -3.05000152 8.50000078 270 N 122 4 2
+#
+# CMP 27
+CMP 22 -8.49999824 -4.54999852 180 N R11B * ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\Panasonic Resistors.pdf'
+PRP Cost_1+ '0.0538'
+PRP Cost_1K+ '0.0349'
+PRP Created '19/09/2025'
+PRP Last_Updated '19/09/2025'
+PRP Life 'V'
+PRP Manufacturer 'Panasonic'
+PRP ManuPartNo 'ERA3AEB303V'
+PRP Power '100mW'
+PRP RoHS 'Y'
+PRP Source 'PanasonicERA3AEB303V'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1670196'
+PRP Tolerance '0.1%'
+PRP Value '30K'
+PRP Voltage '75V'
+TOP 0 -7.7999971 -4.54999852 90 N 37 2 1
+TOP 1 -9.19999684 -4.54999852 90 N 121 4 2
+#
+# CMP 28
+CMP 22 -8.49999824 -11.79999672 0 N R12B * ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\Panasonic Resistors.pdf'
+PRP Cost_1+ '0.237'
+PRP Cost_1K+ '0.053'
+PRP Created '27/02/2018'
+PRP Last_Updated '27/02/2018'
+PRP Life 'V'
+PRP Manufacturer 'Panasonic'
+PRP ManuPartNo 'ERA3AEB103V'
+PRP Power '100mW'
+PRP RoHS 'Y'
+PRP Source 'PanasonicERA3AEB103V'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1577619'
+PRP Tolerance '0.1%'
+PRP Value '10K'
+PRP Voltage '75V'
+TOP 0 -9.19999938 -11.79999672 270 N 126 32 1
+TOP 1 -7.79999964 -11.79999672 270 N 37 3 2
+#
+# CMP 29
+CMP 22 15.69999908 -14.39999914 180 N R10A RESISTOR ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\Panasonic Resistors.pdf'
+PRP Cost_1+ '0.237'
+PRP Cost_1K+ '0.053'
+PRP Created '27/02/2018'
+PRP Last_Updated '27/02/2018'
+PRP Life 'V'
+PRP Manufacturer 'Panasonic'
+PRP ManuPartNo 'ERA3AEB103V'
+PRP Power '100mW'
+PRP RoHS 'Y'
+PRP Source 'PanasonicERA3AEB103V'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1577619'
+PRP Tolerance '0.1%'
+PRP Value '10K'
+PRP Voltage '75V'
+TOP 0 16.40000022 -14.39999914 90 N 17 2 1
+TOP 1 15.00000048 -14.39999914 90 N 127 12 2
+#
+# CMP 30
+CMP 22 4.72500198 -8.49739728 180 N R11A * ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\Panasonic Resistors.pdf'
+PRP Cost_1+ '0.0538'
+PRP Cost_1K+ '0.0349'
+PRP Created '19/09/2025'
+PRP Last_Updated '19/09/2025'
+PRP Life 'V'
+PRP Manufacturer 'Panasonic'
+PRP ManuPartNo 'ERA3AEB303V'
+PRP Power '100mW'
+PRP RoHS 'Y'
+PRP Source 'PanasonicERA3AEB303V'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1670196'
+PRP Tolerance '0.1%'
+PRP Value '30K'
+PRP Voltage '75V'
+TOP 0 5.42500312 -8.49739728 90 N 38 2 1
+TOP 1 4.02500338 -8.49739728 90 N 120 4 2
+#
+# CMP 31
+CMP 22 4.72500198 -15.74739548 0 N R12A * ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\Panasonic Resistors.pdf'
+PRP Cost_1+ '0.237'
+PRP Cost_1K+ '0.053'
+PRP Created '27/02/2018'
+PRP Last_Updated '27/02/2018'
+PRP Life 'V'
+PRP Manufacturer 'Panasonic'
+PRP ManuPartNo 'ERA3AEB103V'
+PRP Power '100mW'
+PRP RoHS 'Y'
+PRP Source 'PanasonicERA3AEB103V'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1577619'
+PRP Tolerance '0.1%'
+PRP Value '10K'
+PRP Voltage '75V'
+TOP 0 4.02500084 -15.74739548 270 N 126 37 1
+TOP 1 5.42500058 -15.74739548 270 N 38 3 2
+#
+# CMP 32
+CMP 10 -15.75000152 12.4599954 0 N C13D * ;0=1,1=0.8000,5=0
+PRP Class 'Capacitor MLC'
+PRP Cost_1+ '0.064'
+PRP Cost_1K+ '0.039'
+PRP Created '25/01/2013'
+PRP Dielectric 'X7R'
+PRP Last_Updated '25/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Murata'
+PRP ManuPartNo 'GRM188R71H104KA93D'
+PRP RoHS 'Y'
+PRP Source 'FEC882-0023'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '8820023'
+PRP Tolerance '10%'
+PRP Value '100nF'
+PRP Voltage '50V'
+TOP 0 -16.37500154 12.4599954 270 N 35 0 1
+TOP 1 -15.1250015 12.4599954 270 N 34 59 2
+#
+# CMP 33
+CMP 10 -3.75000012 16.99999902 0 N C13C * ;0=1,1=0.8000,5=0
+PRP Class 'Capacitor MLC'
+PRP Cost_1+ '0.064'
+PRP Cost_1K+ '0.039'
+PRP Created '25/01/2013'
+PRP Dielectric 'X7R'
+PRP Last_Updated '25/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Murata'
+PRP ManuPartNo 'GRM188R71H104KA93D'
+PRP RoHS 'Y'
+PRP Source 'FEC882-0023'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '8820023'
+PRP Tolerance '10%'
+PRP Value '100nF'
+PRP Voltage '50V'
+TOP 0 -4.37500014 16.99999902 270 N 36 0 1
+TOP 1 -3.1250001 16.99999902 270 N 34 57 2
+#
+# CMP 34
+CMP 10 -8.49999824 -13.04999676 180 N C13B * ;0=1,1=0.8000,5=0
+PRP Class 'Capacitor MLC'
+PRP Cost_1+ '0.064'
+PRP Cost_1K+ '0.039'
+PRP Created '25/01/2013'
+PRP Dielectric 'X7R'
+PRP Last_Updated '25/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Murata'
+PRP ManuPartNo 'GRM188R71H104KA93D'
+PRP RoHS 'Y'
+PRP Source 'FEC882-0023'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '8820023'
+PRP Tolerance '10%'
+PRP Value '100nF'
+PRP Voltage '50V'
+TOP 0 -7.87499822 -13.04999676 90 N 37 0 1
+TOP 1 -9.12499826 -13.04999676 90 N 126 36 2
+#
+# CMP 35
+CMP 10 4.72500198 -16.99739552 180 N C13A * ;0=1,1=0.8000,5=0
+PRP Class 'Capacitor MLC'
+PRP Cost_1+ '0.064'
+PRP Cost_1K+ '0.039'
+PRP Created '25/01/2013'
+PRP Dielectric 'X7R'
+PRP Last_Updated '25/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Murata'
+PRP ManuPartNo 'GRM188R71H104KA93D'
+PRP RoHS 'Y'
+PRP Source 'FEC882-0023'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '8820023'
+PRP Tolerance '10%'
+PRP Value '100nF'
+PRP Voltage '50V'
+TOP 0 5.350002 -16.99739552 90 N 38 0 1
+TOP 1 4.10000196 -16.99739552 90 N 126 35 2
+#
+# CMP 36
+CMP 29 15.59999928 -21.59999998 270 N TP13A TMS ;0=1,1=0.0000,5=0
+PRP Class 'Testpoint'
+PRP Created '26/01/2013'
+PRP Last_Updated '26/01/2013'
+PRP Source 'Misc TP1'
+PRP Supplier_1 'Misc'
+PRP Supplier_Part_Number_1 'TP1'
+TOP 0 15.59999928 -21.59999998 270 N 40 1 1
+#
+# CMP 37
+CMP 29 16.20000062 11.69999946 270 N TP3B TMS ;0=1,1=0.0000,5=0
+PRP Class 'Testpoint'
+PRP Created '26/01/2013'
+PRP Last_Updated '26/01/2013'
+PRP Source 'Misc TP1'
+PRP Supplier_1 'Misc'
+PRP Supplier_Part_Number_1 'TP1'
+TOP 0 16.20000062 11.69999946 270 N 41 1 1
+#
+# CMP 38
+CMP 29 6.5999995 -10.00000032 270 N TP3A TMS ;0=1,1=0.0000,5=0
+PRP Class 'Testpoint'
+PRP Created '26/01/2013'
+PRP Last_Updated '26/01/2013'
+PRP Source 'Misc TP1'
+PRP Supplier_1 'Misc'
+PRP Supplier_Part_Number_1 'TP1'
+TOP 0 6.5999995 -10.00000032 270 N 42 1 1
+#
+# CMP 39
+CMP 2 19.0999999 12.8999996 180 N SB6B Primary_=_Open,_Secondary_=_Closed ;0=1,1=0.1000,5=0
+PRP Created '13/10/2017'
+PRP Last_Updated '13/10/2017'
+PRP Life 'V'
+PRP Pin_Count '2'
+PRP RoHS 'Y'
+PRP Source 'Solder Blob Open'
+TOP 0 20.15000034 12.8999996 180 N 34 40 1
+TOP 1 19.68749936 12.90000214 180 N 34 41 1
+TOP 2 18.04999946 12.8999996 180 N 43 1 2
+TOP 3 18.48750176 12.8999996 180 N 43 2 2
+#
+# CMP 40
+CMP 22 -5.49999916 19.75000114 270 N R7B * ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP Cost_1+ '0.021'
+PRP Cost_1K+ '0.015'
+PRP Created '23/01/2013'
+PRP Last_Updated '23/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Multicomp'
+PRP ManuPartNo 'MC 0.063W 0603 1% 120R'
+PRP RoHS 'Y'
+PRP Source 'FEC933-0496'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '9330496'
+PRP Tolerance '1%'
+PRP Value '120R'
+PRP Voltage '50V'
+TOP 0 -5.49999916 19.05 180 N 93 1 1
+TOP 1 -5.49999916 20.44999974 180 N 75 1 2
+#
+# CMP 41
+CMP 22 -7.25000074 -19.2499996 90 N R7A * ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP Cost_1+ '0.021'
+PRP Cost_1K+ '0.015'
+PRP Created '23/01/2013'
+PRP Last_Updated '23/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Multicomp'
+PRP ManuPartNo 'MC 0.063W 0603 1% 120R'
+PRP RoHS 'Y'
+PRP Source 'FEC933-0496'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '9330496'
+PRP Tolerance '1%'
+PRP Value '120R'
+PRP Voltage '50V'
+TOP 0 -7.25000074 -18.54999846 0 N 94 1 1
+TOP 1 -7.25000074 -19.9499982 0 N 123 1 2
+#
+# CMP 42
+CMP 22 -3.99999962 24.49999926 270 N R6B * ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP Cost_1+ '0.021'
+PRP Cost_1K+ '0.015'
+PRP Created '23/01/2013'
+PRP Last_Updated '23/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Multicomp'
+PRP ManuPartNo 'MC 0.063W 0603 1% 20R'
+PRP RoHS 'Y'
+PRP Source 'FEC933-0798'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '9330798'
+PRP Tolerance '1%'
+PRP Value '20R'
+PRP Voltage '50V'
+TOP 0 -3.99999962 23.79999812 180 N 45 1 1
+TOP 1 -3.99999962 25.19999786 180 N 76 1 2
+#
+# CMP 43
+CMP 22 -8.75000028 -23.95000036 90 N R6A * ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP Cost_1+ '0.021'
+PRP Cost_1K+ '0.015'
+PRP Created '23/01/2013'
+PRP Last_Updated '23/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Multicomp'
+PRP ManuPartNo 'MC 0.063W 0603 1% 20R'
+PRP RoHS 'Y'
+PRP Source 'FEC933-0798'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '9330798'
+PRP Tolerance '1%'
+PRP Value '20R'
+PRP Voltage '50V'
+TOP 0 -8.75000028 -23.24999922 0 N 46 1 1
+TOP 1 -8.75000028 -24.64999896 0 N 124 1 2
+#
+# CMP 44
+CMP 22 -8.50000078 24.24999976 270 N R5B * ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP Cost_1+ '0.021'
+PRP Cost_1K+ '0.015'
+PRP Created '23/01/2013'
+PRP Last_Updated '23/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Multicomp'
+PRP ManuPartNo 'MC 0.063W 0603 1% 20R'
+PRP RoHS 'Y'
+PRP Source 'FEC933-0798'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '9330798'
+PRP Tolerance '1%'
+PRP Value '20R'
+PRP Voltage '50V'
+TOP 0 -8.50000078 23.54999862 180 N 95 1 1
+TOP 1 -8.50000078 24.94999836 180 N 77 1 2
+#
+# CMP 45
+CMP 22 -5.00000016 -25.9999988 180 N R5A * ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP Cost_1+ '0.021'
+PRP Cost_1K+ '0.015'
+PRP Created '23/01/2013'
+PRP Last_Updated '23/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Multicomp'
+PRP ManuPartNo 'MC 0.063W 0603 1% 20R'
+PRP RoHS 'Y'
+PRP Source 'FEC933-0798'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '9330798'
+PRP Tolerance '1%'
+PRP Value '20R'
+PRP Voltage '50V'
+TOP 0 -4.29999902 -25.9999988 90 N 96 1 1
+TOP 1 -5.69999876 -25.9999988 90 N 125 1 2
+#
+# CMP 46
+CMP 23 24.24999976 4.50000116 180 N TP16B GND ;0=1,1=2.0000,5=0
+PRP Class 'Connector'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\S1751-46R.pdf'
+PRP Cost_1+ '0.134'
+PRP Cost_1K+ '0.106'
+PRP Created '16/10/2017'
+PRP Last_Updated '01/12/2017'
+PRP Life 'V'
+PRP Manufacturer 'Harwin'
+PRP ManuPartNo 'S1751-46R'
+PRP Orient 'Vertical'
+PRP Pin_Count '1'
+PRP RoHS 'Y'
+PRP Source 'FEC2293786'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '2293786'
+TOP 0 24.24999976 4.50000116 180 N 97 9 1
+#
+# CMP 47
+CMP 22 -14.75000352 14.95999548 270 N R4D * ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\Panasonic Resistors.pdf'
+PRP Cost_1+ '0.237'
+PRP Cost_1K+ '0.053'
+PRP Created '27/02/2018'
+PRP Last_Updated '27/02/2018'
+PRP Life 'V'
+PRP Manufacturer 'Panasonic'
+PRP ManuPartNo 'ERA3AEB103V'
+PRP Power '100mW'
+PRP RoHS 'Y'
+PRP Source 'PanasonicERA3AEB103V'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1577619'
+PRP Tolerance '0.1%'
+PRP Value '10K'
+PRP Voltage '75V'
+TOP 0 -14.75000352 14.25999434 180 N 34 37 1
+TOP 1 -14.75000098 15.65999408 180 N 111 1 2
+#
+# CMP 48
+CMP 22 -12.3000008 16.50000002 0 N R2D * ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\Panasonic Resistors.pdf'
+PRP Cost_1+ '0.0538'
+PRP Cost_1K+ '0.0349'
+PRP Created '19/09/2025'
+PRP Last_Updated '19/09/2025'
+PRP Life 'V'
+PRP Manufacturer 'Panasonic'
+PRP ManuPartNo 'ERA3AEB303V'
+PRP Power '100mW'
+PRP RoHS 'Y'
+PRP Source 'PanasonicERA3AEB303V'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1670196'
+PRP Tolerance '0.1%'
+PRP Value '30K'
+PRP Voltage '75V'
+TOP 0 -13.00000194 16.50000002 270 N 111 0 1
+TOP 1 -11.6000022 16.49999748 270 N 104 3 2
+#
+# CMP 49
+CMP 22 -2.74999958 19.4999991 270 N R4C * ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\Panasonic Resistors.pdf'
+PRP Cost_1+ '0.237'
+PRP Cost_1K+ '0.053'
+PRP Created '27/02/2018'
+PRP Last_Updated '27/02/2018'
+PRP Life 'V'
+PRP Manufacturer 'Panasonic'
+PRP ManuPartNo 'ERA3AEB103V'
+PRP Power '100mW'
+PRP RoHS 'Y'
+PRP Source 'PanasonicERA3AEB103V'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1577619'
+PRP Tolerance '0.1%'
+PRP Value '10K'
+PRP Voltage '75V'
+TOP 0 -2.74999958 18.79999796 180 N 34 31 1
+TOP 1 -2.74999958 20.1999977 180 N 110 1 2
+#
+# CMP 50
+CMP 22 -0.2999994 21.0400011 0 N R2C * ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\Panasonic Resistors.pdf'
+PRP Cost_1+ '0.0538'
+PRP Cost_1K+ '0.0349'
+PRP Created '19/09/2025'
+PRP Last_Updated '19/09/2025'
+PRP Life 'V'
+PRP Manufacturer 'Panasonic'
+PRP ManuPartNo 'ERA3AEB303V'
+PRP Power '100mW'
+PRP RoHS 'Y'
+PRP Source 'PanasonicERA3AEB303V'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1670196'
+PRP Tolerance '0.1%'
+PRP Value '30K'
+PRP Voltage '75V'
+TOP 0 -1.00000054 21.0400011 270 N 110 0 1
+TOP 1 0.3999992 21.0400011 270 N 86 7 2
+#
+# CMP 51
+CMP 22 -9.49999624 -15.54999684 90 N R4B * ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\Panasonic Resistors.pdf'
+PRP Cost_1+ '0.237'
+PRP Cost_1K+ '0.053'
+PRP Created '27/02/2018'
+PRP Last_Updated '27/02/2018'
+PRP Life 'V'
+PRP Manufacturer 'Panasonic'
+PRP ManuPartNo 'ERA3AEB103V'
+PRP Power '100mW'
+PRP RoHS 'Y'
+PRP Source 'PanasonicERA3AEB103V'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1577619'
+PRP Tolerance '0.1%'
+PRP Value '10K'
+PRP Voltage '75V'
+TOP 0 -9.49999624 -14.8499957 0 N 126 33 1
+TOP 1 -9.49999624 -16.24999544 0 N 109 2 2
+#
+# CMP 52
+CMP 22 -11.94999896 -17.09000138 180 N R2B * ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\Panasonic Resistors.pdf'
+PRP Cost_1+ '0.0538'
+PRP Cost_1K+ '0.0349'
+PRP Created '19/09/2025'
+PRP Last_Updated '19/09/2025'
+PRP Life 'V'
+PRP Manufacturer 'Panasonic'
+PRP ManuPartNo 'ERA3AEB303V'
+PRP Power '100mW'
+PRP RoHS 'Y'
+PRP Source 'PanasonicERA3AEB303V'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1670196'
+PRP Tolerance '0.1%'
+PRP Value '30K'
+PRP Voltage '75V'
+TOP 0 -11.24999782 -17.09000138 90 N 109 3 1
+TOP 1 -12.64999756 -17.09000138 90 N 112 6 2
+#
+# CMP 53
+CMP 22 3.72500398 -19.4973956 90 N R4A * ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\Panasonic Resistors.pdf'
+PRP Cost_1+ '0.237'
+PRP Cost_1K+ '0.053'
+PRP Created '27/02/2018'
+PRP Last_Updated '27/02/2018'
+PRP Life 'V'
+PRP Manufacturer 'Panasonic'
+PRP ManuPartNo 'ERA3AEB103V'
+PRP Power '100mW'
+PRP RoHS 'Y'
+PRP Source 'PanasonicERA3AEB103V'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1577619'
+PRP Tolerance '0.1%'
+PRP Value '10K'
+PRP Voltage '75V'
+TOP 0 3.72500652 -18.79739446 0 N 126 18 1
+TOP 1 3.72500398 -20.19739166 0 N 108 0 2
+#
+# CMP 54
+CMP 22 1.27500126 -21.03740014 180 N R2A * ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\Panasonic Resistors.pdf'
+PRP Cost_1+ '0.0538'
+PRP Cost_1K+ '0.0349'
+PRP Created '19/09/2025'
+PRP Last_Updated '19/09/2025'
+PRP Life 'V'
+PRP Manufacturer 'Panasonic'
+PRP ManuPartNo 'ERA3AEB303V'
+PRP Power '100mW'
+PRP RoHS 'Y'
+PRP Source 'PanasonicERA3AEB303V'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1670196'
+PRP Tolerance '0.1%'
+PRP Value '30K'
+PRP Voltage '75V'
+TOP 0 1.97500494 -21.03740014 90 N 108 3 1
+TOP 1 0.5750052 -21.03740014 90 N 105 6 2
+#
+# CMP 55
+CMP 19 -8.99999978 18.20999914 90 N Q6D Reverse_Polarity_Protection ;0=1,1=0.0000,5=0
+PRP Class 'Transistor MOSFET P'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\3679934.pdf'
+PRP Cost_1+ '0.598'
+PRP Cost_1K+ '0.207'
+PRP Created '24/09/2025'
+PRP Id '8.9'
+PRP Last_Updated '24/09/2025'
+PRP Life 'V'
+PRP Manufacturer 'NEXPERIA'
+PRP ManuPartNo 'PXP012-30QLJ'
+PRP Pd_(mW) '1700'
+PRP Rds(on) '0.0111'
+PRP RoHS 'Y'
+PRP Source 'FEC3934789'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '3934789'
+PRP Vds '30'
+PRP Vgs '25'
+TOP 0 -8.02500046 19.96259914 90 N 47 3 1
+TOP 1 -8.67499916 19.96259914 90 N 47 4 2
+TOP 2 -9.3250004 19.96259914 90 N 47 5 3
+TOP 3 -9.9749991 19.96259914 90 N 34 36 4
+TOP 4 -9.9749991 16.4573966 90 N 104 13 5
+TOP 5 -9.3250004 16.4573966 90 N 104 12 6
+TOP 6 -8.67499916 16.4573966 90 N 104 11 7
+TOP 7 -8.02499792 16.45739914 90 N 104 4 8
+#
+# CMP 56
+CMP 19 -8.99999978 13.70999544 270 N Q1D * ;0=1,1=0.0000,5=0
+PRP Class 'Transistor MOSFET P'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\3679934.pdf'
+PRP Cost_1+ '0.598'
+PRP Cost_1K+ '0.207'
+PRP Created '24/09/2025'
+PRP Id '8.9'
+PRP Last_Updated '24/09/2025'
+PRP Life 'V'
+PRP Manufacturer 'NEXPERIA'
+PRP ManuPartNo 'PXP012-30QLJ'
+PRP Pd_(mW) '1700'
+PRP Rds(on) '0.0111'
+PRP RoHS 'Y'
+PRP Source 'FEC3934789'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '3934789'
+PRP Vds '30'
+PRP Vgs '25'
+TOP 0 -9.9749991 11.95739544 270 N 103 5 1
+TOP 1 -9.3250004 11.95739544 270 N 103 7 2
+TOP 2 -8.67499916 11.95739544 270 N 103 6 3
+TOP 3 -8.02500046 11.95739544 270 N 74 2 4
+TOP 4 -8.02500046 15.46259544 270 N 104 9 5
+TOP 5 -8.67499916 15.46259544 270 N 104 8 6
+TOP 6 -9.3250004 15.46259544 270 N 104 7 7
+TOP 7 -9.9749991 15.46259544 270 N 104 10 8
+#
+# CMP 57
+CMP 19 3.00000162 18.24999906 270 N Q1C * ;0=1,1=0.0000,5=0
+PRP Class 'Transistor MOSFET P'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\3679934.pdf'
+PRP Cost_1+ '0.598'
+PRP Cost_1K+ '0.207'
+PRP Created '24/09/2025'
+PRP Id '8.9'
+PRP Last_Updated '24/09/2025'
+PRP Life 'V'
+PRP Manufacturer 'NEXPERIA'
+PRP ManuPartNo 'PXP012-30QLJ'
+PRP Pd_(mW) '1700'
+PRP Rds(on) '0.0111'
+PRP RoHS 'Y'
+PRP Source 'FEC3934789'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '3934789'
+PRP Vds '30'
+PRP Vgs '25'
+TOP 0 2.0250023 16.49739906 270 N 122 5 1
+TOP 1 2.675001 16.49739906 270 N 122 7 2
+TOP 2 3.32500224 16.49739906 270 N 122 6 3
+TOP 3 3.97500094 16.49739906 270 N 73 2 4
+TOP 4 3.97500094 20.00259906 270 N 86 6 5
+TOP 5 3.32500224 20.00259906 270 N 86 5 6
+TOP 6 2.675001 20.00259906 270 N 86 10 7
+TOP 7 2.0250023 20.00259906 270 N 86 9 8
+#
+# CMP 58
+CMP 19 3.00000162 22.75000022 90 N Q6C Reverse_Polarity_Protection ;0=1,1=0.0000,5=0
+PRP Class 'Transistor MOSFET P'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\3679934.pdf'
+PRP Cost_1+ '0.598'
+PRP Cost_1K+ '0.207'
+PRP Created '24/09/2025'
+PRP Id '8.9'
+PRP Last_Updated '24/09/2025'
+PRP Life 'V'
+PRP Manufacturer 'NEXPERIA'
+PRP ManuPartNo 'PXP012-30QLJ'
+PRP Pd_(mW) '1700'
+PRP Rds(on) '0.0111'
+PRP RoHS 'Y'
+PRP Source 'FEC3934789'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '3934789'
+PRP Vds '30'
+PRP Vgs '25'
+TOP 0 3.97500094 24.50260022 90 N 48 3 1
+TOP 1 3.32500224 24.50260022 90 N 48 4 2
+TOP 2 2.675001 24.50260022 90 N 48 5 3
+TOP 3 2.0250023 24.50260022 90 N 34 34 4
+TOP 4 2.0250023 20.99740022 90 N 86 11 5
+TOP 5 2.675001 20.99740022 90 N 86 13 6
+TOP 6 3.32500224 20.99740022 90 N 86 12 7
+TOP 7 3.97500094 20.99740022 90 N 86 8 8
+#
+# CMP 59
+CMP 19 -15.24999998 -14.2999968 90 N Q1B * ;0=1,1=0.0000,5=0
+PRP Class 'Transistor MOSFET P'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\3679934.pdf'
+PRP Cost_1+ '0.598'
+PRP Cost_1K+ '0.207'
+PRP Created '24/09/2025'
+PRP Id '8.9'
+PRP Last_Updated '24/09/2025'
+PRP Life 'V'
+PRP Manufacturer 'NEXPERIA'
+PRP ManuPartNo 'PXP012-30QLJ'
+PRP Pd_(mW) '1700'
+PRP Rds(on) '0.0111'
+PRP RoHS 'Y'
+PRP Source 'FEC3934789'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '3934789'
+PRP Vds '30'
+PRP Vgs '25'
+TOP 0 -14.27500066 -12.5473968 90 N 121 6 1
+TOP 1 -14.92499936 -12.5473968 90 N 121 7 2
+TOP 2 -15.5750006 -12.5473968 90 N 121 5 3
+TOP 3 -16.2249993 -12.5473968 90 N 72 2 4
+TOP 4 -16.2249993 -16.0525968 90 N 112 9 5
+TOP 5 -15.5750006 -16.0525968 90 N 112 10 6
+TOP 6 -14.92499936 -16.0525968 90 N 112 5 7
+TOP 7 -14.27500066 -16.0525968 90 N 112 7 8
+#
+# CMP 60
+CMP 19 -15.24999998 -18.8000005 270 N Q6B Reverse_Polarity_Protection ;0=1,1=0.0000,5=0
+PRP Class 'Transistor MOSFET P'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\3679934.pdf'
+PRP Cost_1+ '0.598'
+PRP Cost_1K+ '0.207'
+PRP Created '24/09/2025'
+PRP Id '8.9'
+PRP Last_Updated '24/09/2025'
+PRP Life 'V'
+PRP Manufacturer 'NEXPERIA'
+PRP ManuPartNo 'PXP012-30QLJ'
+PRP Pd_(mW) '1700'
+PRP Rds(on) '0.0111'
+PRP RoHS 'Y'
+PRP Source 'FEC3934789'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '3934789'
+PRP Vds '30'
+PRP Vgs '25'
+TOP 0 -16.2249993 -20.5526005 270 N 49 5 1
+TOP 1 -15.5750006 -20.5526005 270 N 49 4 2
+TOP 2 -14.92499936 -20.5526005 270 N 49 3 3
+TOP 3 -14.27500066 -20.5526005 270 N 126 34 4
+TOP 4 -14.27500066 -17.0474005 270 N 112 8 5
+TOP 5 -14.92499936 -17.0474005 270 N 112 12 6
+TOP 6 -15.5750006 -17.0474005 270 N 112 13 7
+TOP 7 -16.2249993 -17.0474005 270 N 112 11 8
+#
+# CMP 61
+CMP 19 -2.02499976 -18.24739556 90 N Q1A * ;0=1,1=0.0000,5=0
+PRP Class 'Transistor MOSFET P'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\3679934.pdf'
+PRP Cost_1+ '0.598'
+PRP Cost_1K+ '0.207'
+PRP Created '24/09/2025'
+PRP Id '8.9'
+PRP Last_Updated '24/09/2025'
+PRP Life 'V'
+PRP Manufacturer 'NEXPERIA'
+PRP ManuPartNo 'PXP012-30QLJ'
+PRP Pd_(mW) '1700'
+PRP Rds(on) '0.0111'
+PRP RoHS 'Y'
+PRP Source 'FEC3934789'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '3934789'
+PRP Vds '30'
+PRP Vgs '25'
+TOP 0 -1.05000044 -16.49479556 90 N 120 5 1
+TOP 1 -1.69999914 -16.49479556 90 N 120 7 2
+TOP 2 -2.35000038 -16.49479556 90 N 120 6 3
+TOP 3 -2.99999908 -16.49479556 90 N 71 2 4
+TOP 4 -3.00000162 -19.99999556 90 N 105 7 5
+TOP 5 -2.35000038 -19.99999556 90 N 105 5 6
+TOP 6 -1.69999914 -19.99999556 90 N 105 10 7
+TOP 7 -1.05000044 -19.99999556 90 N 105 9 8
+#
+# CMP 62
+CMP 19 -2.02499976 -22.74739926 270 N Q6A Reverse_Polarity_Protection ;0=1,1=0.0000,5=0
+PRP Class 'Transistor MOSFET P'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\3679934.pdf'
+PRP Cost_1+ '0.598'
+PRP Cost_1K+ '0.207'
+PRP Created '24/09/2025'
+PRP Id '8.9'
+PRP Last_Updated '24/09/2025'
+PRP Life 'V'
+PRP Manufacturer 'NEXPERIA'
+PRP ManuPartNo 'PXP012-30QLJ'
+PRP Pd_(mW) '1700'
+PRP Rds(on) '0.0111'
+PRP RoHS 'Y'
+PRP Source 'FEC3934789'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '3934789'
+PRP Vds '30'
+PRP Vgs '25'
+TOP 0 -2.99999908 -24.49999926 270 N 50 3 1
+TOP 1 -2.35000038 -24.49999926 270 N 50 4 2
+TOP 2 -1.69999914 -24.49999926 270 N 50 5 3
+TOP 3 -1.05000044 -24.49999926 270 N 126 16 4
+TOP 4 -1.05000298 -20.99479926 270 N 105 11 5
+TOP 5 -1.70000168 -20.99479926 270 N 105 13 6
+TOP 6 -2.35000292 -20.99479926 270 N 105 12 7
+TOP 7 -3.00000162 -20.99479926 270 N 105 8 8
+#
+# CMP 63
+CMP 15 32.50000104 62.49999946 270 N FID5 * ;0=1,1=0.0000,5=0
+PRP Class 'Fiducial Dot'
+PRP Created '31/05/2013'
+PRP Last_Updated '31/05/2013'
+PRP Source 'Misc FIDT'
+PRP Supplier_1 'Misc'
+PRP Supplier_Part_Number_1 'FIDT'
+TOP 0 32.50000104 62.49999946 270 N 0 28 0
+#
+# CMP 64
+CMP 15 -62.49999946 62.49999946 270 N FID6 * ;0=1,1=0.0000,5=0
+PRP Class 'Fiducial Dot'
+PRP Created '31/05/2013'
+PRP Last_Updated '31/05/2013'
+PRP Source 'Misc FIDT'
+PRP Supplier_1 'Misc'
+PRP Supplier_Part_Number_1 'FIDT'
+TOP 0 -62.49999946 62.49999946 270 N 0 29 0
+#
+# CMP 65
+CMP 15 32.50000104 -32.50000104 270 N FID4 * ;0=1,1=0.0000,5=0
+PRP Class 'Fiducial Dot'
+PRP Created '31/05/2013'
+PRP Last_Updated '31/05/2013'
+PRP Source 'Misc FIDT'
+PRP Supplier_1 'Misc'
+PRP Supplier_Part_Number_1 'FIDT'
+TOP 0 32.50000104 -32.50000104 270 N 0 41 0
+#
+# CMP 66
+CMP 10 -16.00000102 14.95999548 90 N C12D * ;0=1,1=0.8000,5=0
+PRP Class 'Capacitor MLC'
+PRP Cost_1+ '0.064'
+PRP Cost_1K+ '0.039'
+PRP Created '25/01/2013'
+PRP Dielectric 'X7R'
+PRP Last_Updated '25/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Murata'
+PRP ManuPartNo 'GRM188R71H104KA93D'
+PRP RoHS 'Y'
+PRP Source 'FEC882-0023'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '8820023'
+PRP Tolerance '10%'
+PRP Value '100nF'
+PRP Voltage '50V'
+TOP 0 -16.00000102 15.5849955 0 N 111 3 1
+TOP 1 -16.00000356 14.33499546 0 N 34 56 2
+#
+# CMP 67
+CMP 10 -3.99999962 19.4999991 90 N C12C * ;0=1,1=0.8000,5=0
+PRP Class 'Capacitor MLC'
+PRP Cost_1+ '0.064'
+PRP Cost_1K+ '0.039'
+PRP Created '25/01/2013'
+PRP Dielectric 'X7R'
+PRP Last_Updated '25/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Murata'
+PRP ManuPartNo 'GRM188R71H104KA93D'
+PRP RoHS 'Y'
+PRP Source 'FEC882-0023'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '8820023'
+PRP Tolerance '10%'
+PRP Value '100nF'
+PRP Voltage '50V'
+TOP 0 -3.99999962 20.12499912 0 N 110 3 1
+TOP 1 -3.99999962 18.87499908 0 N 34 35 2
+#
+# CMP 68
+CMP 10 -8.24999874 -15.54999684 270 N C12B * ;0=1,1=0.8000,5=0
+PRP Class 'Capacitor MLC'
+PRP Cost_1+ '0.064'
+PRP Cost_1K+ '0.039'
+PRP Created '25/01/2013'
+PRP Dielectric 'X7R'
+PRP Last_Updated '25/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Murata'
+PRP ManuPartNo 'GRM188R71H104KA93D'
+PRP RoHS 'Y'
+PRP Source 'FEC882-0023'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '8820023'
+PRP Tolerance '10%'
+PRP Value '100nF'
+PRP Voltage '50V'
+TOP 0 -8.24999874 -16.17499686 180 N 109 0 1
+TOP 1 -8.24999874 -14.92499682 180 N 126 19 2
+#
+# CMP 69
+CMP 10 4.97500148 -19.4973956 270 N C12A * ;0=1,1=0.8000,5=0
+PRP Class 'Capacitor MLC'
+PRP Cost_1+ '0.064'
+PRP Cost_1K+ '0.039'
+PRP Created '25/01/2013'
+PRP Dielectric 'X7R'
+PRP Last_Updated '25/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Murata'
+PRP ManuPartNo 'GRM188R71H104KA93D'
+PRP RoHS 'Y'
+PRP Source 'FEC882-0023'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '8820023'
+PRP Tolerance '10%'
+PRP Value '100nF'
+PRP Voltage '50V'
+TOP 0 4.97500148 -20.12239562 180 N 108 2 1
+TOP 1 4.97500402 -18.87239558 180 N 126 20 2
+#
+# CMP 70
+CMP 22 17.89999976 18.7000007 270 N R9B RESISTOR ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP Cost_1+ '0.021'
+PRP Cost_1K+ '0.015'
+PRP Created '23/01/2013'
+PRP Last_Updated '23/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Multicomp'
+PRP ManuPartNo 'MC 0.063W 0603 1% 4K7'
+PRP RoHS 'Y'
+PRP Source 'FEC933-1247'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '9331247'
+PRP Tolerance '1%'
+PRP Value '4K7'
+PRP Voltage '50V'
+TOP 0 17.89999976 17.99999956 180 N 99 0 1
+TOP 1 17.89999976 19.3999993 180 N 101 18 2
+#
+# CMP 71
+CMP 22 17.35000086 -19.1499998 90 N R9A RESISTOR ;0=1,1=0.5500,5=0
+PRP Class 'Resistor'
+PRP Cost_1+ '0.021'
+PRP Cost_1K+ '0.015'
+PRP Created '23/01/2013'
+PRP Last_Updated '23/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Multicomp'
+PRP ManuPartNo 'MC 0.063W 0603 1% 4K7'
+PRP RoHS 'Y'
+PRP Source 'FEC933-1247'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '9331247'
+PRP Tolerance '1%'
+PRP Value '4K7'
+PRP Voltage '50V'
+TOP 0 17.35000086 -18.44999866 0 N 100 2 1
+TOP 1 17.35000086 -19.8499984 0 N 127 3 2
+#
+# CMP 72
+CMP 17 12.2500009 16.74999952 90 N U6B Microcontroller ;0=1,1=0.0000,5=0
+PRP Ambient_Temperature_Range_High '+85°C'
+PRP Ambient_Temperature_Range_Low '-40°C'
+PRP Automotive 'No'
+PRP Category 'IC'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://www.st.com/content/ccc/resource/technical/document/datasheet/42/c0/ab/e5/71/7a/47/0b/DM00206508.pdf/files/DM00206508.pdf/jcr:content/translations/en.DM00206508.pdf'
+PRP Core_Architecture 'Arm Cortex-M0+'
+PRP Data_Bus_Width '32bits'
+PRP Device_Class_L1 'Integrated Circuits (ICs)'
+PRP Device_Class_L2 'Embedded Processors and Controllers'
+PRP Device_Class_L3 'Microcontrollers'
+PRP Digikey_Description 'IC MCU 32BIT 16KB FLASH 32LQFP'
+PRP Frequency '32MHz'
+PRP Height '1.6mm'
+PRP Interface 'I2C,SPI,UART,USART,IrDA'
+PRP Ipc_Land_Pattern_Name 'QFP80P900X900X160-32'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'STMicroelectronics'
+PRP Manufacturer_Part_Number 'STM32L011K4T6'
+PRP Max_Junction_Temp '+105°C'
+PRP Max_Supply_Voltage '3.6V'
+PRP Memory_Size '16KBytes'
+PRP Memory_Type 'FLASH'
+PRP Min_Supply_Voltage '1.65V'
+PRP Mouser_Description 'ARM Microcontrollers - MCU Ultra-low-power ARM Cortex-M0+ MCU with 16-Kbytes Flash, 32 MHz CPU'
+PRP Nominal_Supply_Current '500-1500uA'
+PRP Number_Of_A/D_Converters '1'
+PRP Number_Of_Adc_Channels '10'
+PRP Number_Of_Cores '1'
+PRP Number_Of_I2C_Channels '1'
+PRP Number_of_I/Os '26'
+PRP Number_Of_Spi_Channels '1'
+PRP Number_Of_Timers/Counters '8'
+PRP Number_Of_Uart_Channels '2'
+PRP Octopart 'https://octopart.com/stm32l011k4t6-stmicroelectronics-71108062'
+PRP Package 'LQFP32-5V'
+PRP Ram_Size '2KBytes'
+PRP RoHS 'TRUE'
+PRP Standoff_Height '0.05mm'
+PRP Temperature '-40°C to +85°C'
+PRP Temperature_Range_High '+85°C'
+PRP Temperature_Range_Low '-40°C'
+TOP 0 15.05000038 20.99999864 90 N 101 12 1
+TOP 1 14.25000198 20.99999864 90 N 39 1 2
+TOP 2 13.45000104 20.99999864 90 N 93 0 3
+TOP 3 12.6500001 20.99999864 90 N 57 2 4
+TOP 4 11.8500017 20.99999864 90 N 101 10 5
+TOP 5 11.05000076 20.99999864 90 N 45 0 6
+TOP 6 10.24999982 20.99999864 90 N 90 2 7
+TOP 7 9.45000142 20.99999864 90 N 0 27 8
+TOP 8 8.00000178 19.549999 90 N 92 2 9
+TOP 9 8.00000178 18.7500006 90 N 110 2 10
+TOP 10 8.00000178 17.94999966 90 N 111 2 11
+TOP 11 8.00000178 17.14999872 90 N 36 1 12
+TOP 12 8.00000178 16.35000032 90 N 35 1 13
+TOP 13 8.00000178 15.54999938 90 N 116 2 14
+TOP 14 8.00000178 14.74999844 90 N 114 2 15
+TOP 15 8.00000178 13.95000004 90 N 34 54 16
+TOP 16 9.45000142 12.5000004 90 N 101 11 17
+TOP 17 10.24999982 12.5000004 90 N 95 0 18
+TOP 18 11.05000076 12.5000004 90 N 52 0 19
+TOP 19 11.8500017 12.5000004 90 N 54 1 20
+TOP 20 12.6500001 12.5000004 90 N 64 1 21
+TOP 21 13.45000104 12.5000004 90 N 41 0 22
+TOP 22 14.25000198 12.5000004 90 N 55 0 23
+TOP 23 15.05000038 12.5000004 90 N 56 0 24
+TOP 24 16.50000002 13.95000004 90 N 43 0 25
+TOP 25 16.50000002 14.74999844 90 N 70 0 26
+TOP 26 16.50000002 15.54999938 90 N 62 0 27
+TOP 27 16.50000002 16.35000032 90 N 60 1 28
+TOP 28 16.50000002 17.14999872 90 N 68 1 29
+TOP 29 16.50000002 17.94999966 90 N 66 1 30
+TOP 30 16.50000002 18.7500006 90 N 99 1 31
+TOP 31 16.50000002 19.549999 90 N 34 55 32
+#
+# CMP 73
+CMP 18 11.49999986 -17.25000106 0 N U2A MIC5200-3.3YS ;0=1,1=0.0000,5=0
+PRP Case/Package 'SOT-223'
+PRP Dropout_Voltage '230mV'
+PRP Lead_Free 'Lead Free'
+PRP Max_Input_Voltage '26V'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Current_Limit '100mA'
+PRP Min_Input_Voltage '2.5V'
+PRP Min_Operating_Temperature '-40°C'
+PRP Mount 'Surface Mount'
+PRP Nominal_Output_Voltage '3.3V'
+PRP Number_of_Pins '3'
+PRP Number_of_Regulators '1'
+PRP Output_Current '100mA'
+PRP Output_Type 'Fixed'
+PRP Output_Voltage '3.3V'
+PRP Packaging 'Rail/Tube'
+PRP REACH_SVHC 'No SVHC'
+TOP 0 8.42499966 -14.95000058 0 N 87 2 1
+TOP 1 8.42499966 -17.25000106 0 N 126 27 2
+TOP 2 8.42499966 -19.55000154 0 N 127 19 3
+TOP 3 14.57500006 -17.25000106 0 N 126 28 4
+#
+# CMP 74
+CMP 29 3.70000022 -25.4999998 270 N TP11A TMS ;0=1,1=0.0000,5=0
+PRP Class 'Testpoint'
+PRP Created '26/01/2013'
+PRP Last_Updated '26/01/2013'
+PRP Source 'Misc TP1'
+PRP Supplier_1 'Misc'
+PRP Supplier_Part_Number_1 'TP1'
+TOP 0 3.70000022 -25.4999998 270 N 78 1 1
+#
+# CMP 75
+CMP 29 5.49999916 18.5000011 270 N TP11B TMS ;0=1,1=0.0000,5=0
+PRP Class 'Testpoint'
+PRP Created '26/01/2013'
+PRP Last_Updated '26/01/2013'
+PRP Source 'Misc TP1'
+PRP Supplier_1 'Misc'
+PRP Supplier_Part_Number_1 'TP1'
+TOP 0 5.49999916 18.5000011 270 N 80 0 1
+#
+# CMP 76
+CMP 29 19.74999606 16.33748828 270 N TP9B TMS ;0=1,1=0.0000,5=0
+PRP Class 'Testpoint'
+PRP Created '26/01/2013'
+PRP Last_Updated '26/01/2013'
+PRP Source 'Misc TP1'
+PRP Supplier_1 'Misc'
+PRP Supplier_Part_Number_1 'TP1'
+TOP 0 19.74999606 16.33748828 270 N 60 0 1
+#
+# CMP 77
+CMP 29 18.09999936 15.49999948 270 N TP8B TMS ;0=1,1=0.0000,5=0
+PRP Class 'Testpoint'
+PRP Created '26/01/2013'
+PRP Last_Updated '26/01/2013'
+PRP Source 'Misc TP1'
+PRP Supplier_1 'Misc'
+PRP Supplier_Part_Number_1 'TP1'
+TOP 0 18.09999936 15.49999948 270 N 62 1 1
+#
+# CMP 78
+CMP 29 8.09999904 -10.00000032 270 N TP7A TMS ;0=1,1=0.0000,5=0
+PRP Class 'Testpoint'
+PRP Created '26/01/2013'
+PRP Last_Updated '26/01/2013'
+PRP Source 'Misc TP1'
+PRP Supplier_1 'Misc'
+PRP Supplier_Part_Number_1 'TP1'
+TOP 0 8.09999904 -10.00000032 270 N 63 1 1
+#
+# CMP 79
+CMP 29 19.77500236 14.65000118 270 N TP4B TMS ;0=1,1=0.0000,5=0
+PRP Class 'Testpoint'
+PRP Created '26/01/2013'
+PRP Last_Updated '26/01/2013'
+PRP Source 'Misc TP1'
+PRP Supplier_1 'Misc'
+PRP Supplier_Part_Number_1 'TP1'
+TOP 0 19.77500236 14.65000118 270 N 70 1 1
+#
+# CMP 80
+CMP 23 -19.2999995 16.79999942 315 N TP2B GND ;0=1,1=2.0000,5=0
+PRP Class 'Connector'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\S1751-46R.pdf'
+PRP Cost_1+ '0.134'
+PRP Cost_1K+ '0.106'
+PRP Created '16/10/2017'
+PRP Last_Updated '01/12/2017'
+PRP Life 'V'
+PRP Manufacturer 'Harwin'
+PRP ManuPartNo 'S1751-46R'
+PRP Orient 'Vertical'
+PRP Pin_Count '1'
+PRP RoHS 'Y'
+PRP Source 'FEC2293786'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '2293786'
+TOP 0 -19.2999995 16.79999942 315 N 34 33 1
+#
+# CMP 81
+CMP 23 -19.2999995 -16.79999942 225 N TP1A GND ;0=1,1=2.0000,5=0
+PRP Class 'Connector'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\S1751-46R.pdf'
+PRP Cost_1+ '0.134'
+PRP Cost_1K+ '0.106'
+PRP Created '16/10/2017'
+PRP Last_Updated '01/12/2017'
+PRP Life 'V'
+PRP Manufacturer 'Harwin'
+PRP ManuPartNo 'S1751-46R'
+PRP Orient 'Vertical'
+PRP Pin_Count '1'
+PRP RoHS 'Y'
+PRP Source 'FEC2293786'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '2293786'
+TOP 0 -19.2999995 -16.79999942 225 N 126 29 1
+#
+# CMP 82
+CMP 27 -59.49999784 -25.9999988 270 N SW2A RESET ;0=1,1=2.5000,5=0
+PRP Class 'Switch SMD'
+PRP Cost_1+ '0.77'
+PRP Cost_1K+ '0.54'
+PRP Created '18/09/2013'
+PRP Last_Updated '18/09/2013'
+PRP Life 'V'
+PRP Manufacturer 'ITT/Cannon'
+PRP ManuPartNo 'KSR231GLFS'
+PRP Orient 'Vertical'
+PRP RoHS 'Y'
+PRP Source 'FEC120-1422'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1201422'
+PRP Switch_Type 'SPST-NO'
+TOP 0 -59.49999784 -29.49999942 270 N 23 9 1
+TOP 1 -59.49999784 -22.49999818 270 N 22 1 2
+#
+# CMP 83
+CMP 27 -59.39999804 -9.89999798 270 N SW2B RESET ;0=1,1=2.5000,5=0
+PRP Class 'Switch SMD'
+PRP Cost_1+ '0.77'
+PRP Cost_1K+ '0.54'
+PRP Created '18/09/2013'
+PRP Last_Updated '18/09/2013'
+PRP Life 'V'
+PRP Manufacturer 'ITT/Cannon'
+PRP ManuPartNo 'KSR231GLFS'
+PRP Orient 'Vertical'
+PRP RoHS 'Y'
+PRP Source 'FEC120-1422'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1201422'
+PRP Switch_Type 'SPST-NO'
+TOP 0 -59.39999804 -13.3999986 270 N 21 9 1
+TOP 1 -59.39999804 -6.39999736 270 N 20 1 2
+#
+# CMP 84
+CMP 27 -54.99999922 -25.9999988 270 N SW1A Boot ;0=1,1=2.5000,5=0
+PRP Class 'Switch SMD'
+PRP Cost_1+ '0.77'
+PRP Cost_1K+ '0.54'
+PRP Created '18/09/2013'
+PRP Last_Updated '18/09/2013'
+PRP Life 'V'
+PRP Manufacturer 'ITT/Cannon'
+PRP ManuPartNo 'KSR231GLFS'
+PRP Orient 'Vertical'
+PRP RoHS 'Y'
+PRP Source 'FEC120-1422'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1201422'
+PRP Switch_Type 'SPST-NO'
+TOP 0 -54.99999922 -29.49999942 270 N 23 8 1
+TOP 1 -54.99999922 -22.49999818 270 N 33 1 2
+#
+# CMP 85
+CMP 27 -54.89999942 -9.89999798 270 N SW1B Boot ;0=1,1=2.5000,5=0
+PRP Class 'Switch SMD'
+PRP Cost_1+ '0.77'
+PRP Cost_1K+ '0.54'
+PRP Created '18/09/2013'
+PRP Last_Updated '18/09/2013'
+PRP Life 'V'
+PRP Manufacturer 'ITT/Cannon'
+PRP ManuPartNo 'KSR231GLFS'
+PRP Orient 'Vertical'
+PRP RoHS 'Y'
+PRP Source 'FEC120-1422'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1201422'
+PRP Switch_Type 'SPST-NO'
+TOP 0 -54.89999942 -13.3999986 270 N 21 8 1
+TOP 1 -54.89999942 -6.39999736 270 N 28 1 2
+#
+# CMP 86
+CMP 1 18.19999916 -15.69999908 0 N SB3A Solder_Blob_Closed ;0=1,1=0.1000,5=0
+PRP Created '13/10/2017'
+PRP Last_Updated '13/10/2017'
+PRP Life 'V'
+PRP Pin_Count '2'
+PRP RoHS 'Y'
+PRP Source 'Solder Blob Closed'
+TOP 0 17.14999872 -15.69999908 0 N 89 1 1
+TOP 1 17.6124997 -15.70000162 0 N 89 2 1
+TOP 2 19.2499996 -15.69999908 0 N 17 1 2
+TOP 3 18.8124973 -15.69999908 0 N 17 0 2
+#
+# CMP 87
+CMP 1 18.19999916 -17.30000096 0 N SB2A Solder_Blob_Closed ;0=1,1=0.1000,5=0
+PRP Created '13/10/2017'
+PRP Last_Updated '13/10/2017'
+PRP Life 'V'
+PRP Pin_Count '2'
+PRP RoHS 'Y'
+PRP Source 'Solder Blob Closed'
+TOP 0 17.14999872 -17.30000096 0 N 91 1 1
+TOP 1 17.6124997 -17.3000035 0 N 91 2 1
+TOP 2 19.2499996 -17.30000096 0 N 15 0 2
+TOP 3 18.8124973 -17.30000096 0 N 15 1 2
+#
+# CMP 88
+CMP 5 -6.2500002 23.50000126 0 N LED1B Visual_Status_Indicator ;0=1,1=1.9000,5=0
+PRP Class 'LED'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\2343968.pdf'
+PRP Cost_1+ '0.278'
+PRP Cost_1K+ '0.141'
+PRP Created '09/03/2018'
+PRP IF_Max_(mA) '20'
+PRP IF_Typ_(mA) '20'
+PRP Last_Updated '09/03/2018'
+PRP Life 'V'
+PRP Manufacturer 'Wurth'
+PRP ManuPartNo 'ASMB-MTB0-0A3A2'
+PRP RoHS 'Y'
+PRP Source 'FEC2401105'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '2401105'
+PRP View_Angle '115'
+TOP 0 -7.00000124 22.00000172 0 N 101 17 1
+TOP 1 -7.00000124 25.0000008 0 N 77 0 2
+TOP 2 -5.49999916 25.0000008 0 N 76 0 3
+TOP 3 -5.49999916 22.00000172 0 N 75 0 4
+#
+# CMP 89
+CMP 28 11.29000028 23.88499922 180 N J8B TC2030-IDC_Tag_Connect_Pads ;0=1,1=0.0000,5=0
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\TC2030-CTX.pdf'
+PRP Created '28/09/2025'
+PRP Last_Updated '28/09/2025'
+PRP Life 'V'
+PRP Manufacturer 'Tag Connect'
+PRP Orient 'Vertical'
+PRP Pin_Count '6'
+PRP RoHS 'Y'
+PRP Source 'TC2030-IDC-NL'
+TOP 0 11.29000028 23.88499922 180 N 0 13 0
+TOP 1 6.21000028 22.86899922 180 N 0 14 0
+TOP 2 6.21000028 24.90099922 180 N 0 15 0
+TOP 3 10.02000028 24.51999922 180 N 101 13 1
+TOP 4 10.02000028 23.24999922 180 N 55 1 2
+TOP 5 8.75000028 24.51999922 180 N 81 1 3
+TOP 6 8.75000028 23.24999922 180 N 56 1 4
+TOP 7 7.48000028 24.51999922 180 N 34 39 5
+TOP 8 7.48000028 23.24999922 180 N 80 1 6
+#
+# CMP 90
+CMP 6 -56.7000009 -1.79999894 0 N J7B Serial_Debug ;0=2,1=7.7000,5=0
+PRP Class 'Connector'
+PRP Cost_1+ '0.26'
+PRP Cost_1K+ '0.24'
+PRP Created '05/06/2013'
+PRP Last_Updated '05/06/2013'
+PRP Life 'V'
+PRP Manufacturer 'JST'
+PRP ManuPartNo 'B04B-PASK-1 (LF) (SN)'
+PRP Orient 'Vertical'
+PRP Pin_Count '4'
+PRP Pitch '2mm'
+PRP RoHS 'Y'
+PRP Source 'RS512-8608'
+PRP Supplier_1 'RSComponents'
+PRP Supplier_Part_Number_1 '512-8608'
+TOP 0 -53.69999928 -1.79999894 0 N 25 0 1
+TOP 1 -55.70000036 -1.79999894 0 N 85 0 2
+TOP 2 -57.70000144 -1.79999894 0 N 84 0 3
+TOP 3 -59.69999998 -1.79999894 0 N 21 10 4
+TOP 4 -52.19999974 -0.0999998 0 N 0 17 11
+#
+# CMP 91
+CMP 25 10.05000022 -12.04999876 180 N D8A * ;0=1,1=1.1200,5=0
+PRP Class 'Diode Schottky'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\BAT54 Fairchild.pdf'
+PRP Cost_1+ '0.117'
+PRP Cost_1K+ '0.0297'
+PRP Created '16/12/2013'
+PRP If_(mA) '200'
+PRP Last_Updated '26/06/2018'
+PRP Life 'V'
+PRP Manufacturer 'Fairchild'
+PRP ManuPartNo 'BAT54C'
+PRP Ptot_(mW) '290'
+PRP RoHS 'Y'
+PRP Source 'FEC146-7518'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1467518'
+PRP Vf '0.8V'
+PRP Vr_(V) '30V'
+TOP 0 11.00000086 -12.9999994 90 N 105 4 1
+TOP 1 11.00000086 -11.10000066 90 N 112 4 2
+TOP 2 9.10000212 -12.04999876 90 N 87 0 3
+#
+# CMP 92
+CMP 10 15.20000008 -12.9999994 180 N C7A * ;0=1,1=0.8000,5=0
+PRP Class 'Capacitor MLC'
+PRP Cost_1+ '0.064'
+PRP Cost_1K+ '0.039'
+PRP Created '25/01/2013'
+PRP Dielectric 'X7R'
+PRP Last_Updated '25/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Murata'
+PRP ManuPartNo 'GRM188R71H104KA93D'
+PRP RoHS 'Y'
+PRP Source 'FEC882-0023'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '8820023'
+PRP Tolerance '10%'
+PRP Value '100nF'
+PRP Voltage '50V'
+TOP 0 15.8250001 -12.9999994 90 N 127 13 1
+TOP 1 14.57500006 -12.9999994 90 N 126 30 2
+#
+# CMP 93
+CMP 11 15.02499916 4.24999912 0 N C6B * ;0=1,1=1.4500,5=0
+PRP Class 'Capacitor MLC'
+PRP Cost_1+ '0.189'
+PRP Cost_1K+ '0.046'
+PRP Created '21/12/2016'
+PRP Dielectric 'X7R'
+PRP Last_Updated '21/12/2016'
+PRP Life 'V'
+PRP Manufacturer 'Murata'
+PRP ManuPartNo 'GRM21BR71A106KE51L'
+PRP RoHS 'Y'
+PRP Source 'Mouser81-GRM21BR71A106KE51'
+PRP Supplier_1 'Mouser'
+PRP Supplier_Part_Number_1 '81-GRM21BR71A106KE51'
+PRP Tolerance '10%'
+PRP Value '10uF'
+PRP Voltage '10V'
+TOP 0 14.04999984 4.24999912 270 N 98 4 1
+TOP 1 16.00000102 4.24999912 270 N 97 7 2
+#
+# CMP 94
+CMP 10 7.60000004 -21.20000078 90 N C4A * ;0=1,1=0.8000,5=0
+PRP Class 'Capacitor MLC'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\2710598.pdf'
+PRP Cost_1+ '0.0261'
+PRP Cost_1K+ '0.0112'
+PRP Created '11/05/2021'
+PRP Dielectric 'X7R'
+PRP Last_Updated '11/05/2021'
+PRP Life 'V'
+PRP Manufacturer 'Samsung'
+PRP ManuPartNo 'CL10B105KA8NFNC'
+PRP RoHS 'Y'
+PRP Source 'FEC3013414'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '3013414'
+PRP Tolerance '10%'
+PRP Value '1uF'
+PRP Voltage '25V'
+TOP 0 7.60000004 -20.57500076 0 N 127 11 1
+TOP 1 7.60000004 -21.8250008 0 N 126 47 2
+#
+# CMP 95
+CMP 10 7.00000124 -18.5000011 270 N C3A * ;0=1,1=0.8000,5=0
+PRP Class 'Capacitor MLC'
+PRP Cost_1+ '0.064'
+PRP Cost_1K+ '0.039'
+PRP Created '25/01/2013'
+PRP Dielectric 'X7R'
+PRP Last_Updated '25/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Murata'
+PRP ManuPartNo 'GRM188R71H104KA93D'
+PRP RoHS 'Y'
+PRP Source 'FEC882-0023'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '8820023'
+PRP Tolerance '10%'
+PRP Value '100nF'
+PRP Voltage '50V'
+TOP 0 7.00000124 -19.12500112 180 N 127 18 1
+TOP 1 7.00000124 -17.87500108 180 N 126 45 2
+#
+# CMP 96
+CMP 10 7.00000124 -15.74999898 90 N C2A * ;0=1,1=0.8000,5=0
+PRP Class 'Capacitor MLC'
+PRP Cost_1+ '0.064'
+PRP Cost_1K+ '0.039'
+PRP Created '25/01/2013'
+PRP Dielectric 'X7R'
+PRP Last_Updated '25/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Murata'
+PRP ManuPartNo 'GRM188R71H104KA93D'
+PRP RoHS 'Y'
+PRP Source 'FEC882-0023'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '8820023'
+PRP Tolerance '10%'
+PRP Value '100nF'
+PRP Voltage '50V'
+TOP 0 7.00000124 -15.12499896 0 N 87 1 1
+TOP 1 7.00000124 -16.374999 0 N 126 46 2
+#
+# CMP 97
+CMP 10 7.79999964 12.3000008 180 N C1B * ;0=1,1=0.8000,5=0
+PRP Class 'Capacitor MLC'
+PRP Cost_1+ '0.064'
+PRP Cost_1K+ '0.039'
+PRP Created '25/01/2013'
+PRP Dielectric 'X7R'
+PRP Last_Updated '25/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Murata'
+PRP ManuPartNo 'GRM188R71H104KA93D'
+PRP RoHS 'Y'
+PRP Source 'FEC882-0023'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '8820023'
+PRP Tolerance '10%'
+PRP Value '100nF'
+PRP Voltage '50V'
+TOP 0 8.42499966 12.3000008 90 N 101 19 1
+TOP 1 7.17499962 12.3000008 90 N 34 32 2
+#
+# CMP 98
+CMP 8 -12.5000004 5.49999916 270 N J3D OUT_S2 ;0=2,1=9.4000,5=0
+PRP Class 'Connector'
+PRP Cost_1+ '0.128'
+PRP Cost_1K+ '0.074'
+PRP Created '13/06/2013'
+PRP Last_Updated '13/06/2013'
+PRP Life 'V'
+PRP Manufacturer 'JST'
+PRP ManuPartNo 'B2P-VH(LF)(SN)'
+PRP Orient# 'Vertical'
+PRP Pin_Count '2'
+PRP Pitch '3.96mm'
+PRP RoHS 'Y'
+PRP Source 'FEC949-2003'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '9492003'
+TOP 0 -12.5000004 5.49999916 270 N 103 3 1
+TOP 1 -12.5000004 9.45999632 270 N 34 26 2
+#
+# CMP 99
+CMP 7 20.10000044 0 180 N J2 Mag_Con ;0=2,1=7.7000,5=0
+PRP Class 'Connector'
+PRP Cost_1+ '0.55'
+PRP Cost_1K+ '0.2'
+PRP Created '21/06/2013'
+PRP Last_Updated '21/06/2013'
+PRP Life 'V'
+PRP Manufacturer 'JST'
+PRP ManuPartNo 'B06B-PASK-1 (LF) (SN)'
+PRP Orient 'Vertical'
+PRP Pin_Count '6'
+PRP Pitch '2mm'
+PRP RoHS 'Y'
+PRP Source 'FEC183-0743'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '1830743'
+TOP 0 15.10000028 0 180 N 98 3 1
+TOP 1 17.10000136 0 180 N 98 2 2
+TOP 2 19.10000244 0 180 N 19 1 3
+TOP 3 21.10000098 0 180 N 18 1 4
+TOP 4 23.10000206 0 180 N 97 15 5
+TOP 5 25.1000006 0 180 N 97 17 6
+TOP 6 13.60000328 -1.69999914 180 N 0 16 11
+#
+# CMP 100
+CMP 10 16.10000082 -19.70000124 270 N C9A * ;0=1,1=0.8000,5=0
+PRP Class 'Capacitor MLC'
+PRP Cost_1+ '0.064'
+PRP Cost_1K+ '0.039'
+PRP Created '25/01/2013'
+PRP Dielectric 'X7R'
+PRP Last_Updated '25/01/2013'
+PRP Life 'V'
+PRP Manufacturer 'Murata'
+PRP ManuPartNo 'GRM188R71H104KA93D'
+PRP RoHS 'Y'
+PRP Source 'FEC882-0023'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '8820023'
+PRP Tolerance '10%'
+PRP Value '100nF'
+PRP Voltage '50V'
+TOP 0 16.10000082 -20.32500126 180 N 127 10 1
+TOP 1 16.10000082 -19.07500122 180 N 126 17 2
+#
+# CMP 101
+CMP 28 10.78999874 -24.3650008 180 N J8A TC2030-IDC_TAG_CONNECT_PADS ;0=1,1=0.0000,5=0
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\TC2030-CTX.pdf'
+PRP Created '28/09/2025'
+PRP Last_Updated '28/09/2025'
+PRP Life 'V'
+PRP Manufacturer 'Tag Connect'
+PRP Orient 'Vertical'
+PRP Pin_Count '6'
+PRP RoHS 'Y'
+PRP Source 'TC2030-IDC-NL'
+TOP 0 10.78999874 -24.3650008 180 N 0 19 0
+TOP 1 5.70999874 -25.3810008 180 N 0 23 0
+TOP 2 5.70999874 -23.3490008 180 N 0 24 0
+TOP 3 9.51999874 -23.7300008 180 N 127 16 1
+TOP 4 9.51999874 -25.0000008 180 N 106 1 2
+TOP 5 8.24999874 -23.7300008 180 N 79 1 3
+TOP 6 8.24999874 -25.0000008 180 N 107 1 4
+TOP 7 6.97999874 -23.7300008 180 N 126 41 5
+TOP 8 6.97999874 -25.0000008 180 N 78 0 6
+#
+# CMP 102
+CMP 8 1.47500086 -10.03739928 90 N J3A OUT_P1 ;0=2,1=9.4000,5=0
+PRP Class 'Connector'
+PRP Cost_1+ '0.128'
+PRP Cost_1K+ '0.074'
+PRP Created '13/06/2013'
+PRP Last_Updated '13/06/2013'
+PRP Life 'V'
+PRP Manufacturer 'JST'
+PRP ManuPartNo 'B2P-VH(LF)(SN)'
+PRP Orient# 'Vertical'
+PRP Pin_Count '2'
+PRP Pitch '3.96mm'
+PRP RoHS 'Y'
+PRP Source 'FEC949-2003'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '9492003'
+TOP 0 1.47500086 -10.03739928 90 N 120 3 1
+TOP 1 1.47500086 -13.99739644 90 N 126 24 2
+#
+# CMP 103
+CMP 8 -11.74999936 -6.09000052 90 N J3B OUT_P2 ;0=2,1=9.4000,5=0
+PRP Class 'Connector'
+PRP Cost_1+ '0.128'
+PRP Cost_1K+ '0.074'
+PRP Created '13/06/2013'
+PRP Last_Updated '13/06/2013'
+PRP Life 'V'
+PRP Manufacturer 'JST'
+PRP ManuPartNo 'B2P-VH(LF)(SN)'
+PRP Orient# 'Vertical'
+PRP Pin_Count '2'
+PRP Pitch '3.96mm'
+PRP RoHS 'Y'
+PRP Source 'FEC949-2003'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '9492003'
+TOP 0 -11.74999936 -6.09000052 90 N 121 3 1
+TOP 1 -11.74999936 -10.05000022 90 N 126 26 2
+#
+# CMP 104
+CMP 8 -0.499999 10.04000024 270 N J3C OUT_S1 ;0=2,1=9.4000,5=0
+PRP Class 'Connector'
+PRP Cost_1+ '0.128'
+PRP Cost_1K+ '0.074'
+PRP Created '13/06/2013'
+PRP Last_Updated '13/06/2013'
+PRP Life 'V'
+PRP Manufacturer 'JST'
+PRP ManuPartNo 'B2P-VH(LF)(SN)'
+PRP Orient# 'Vertical'
+PRP Pin_Count '2'
+PRP Pitch '3.96mm'
+PRP RoHS 'Y'
+PRP Source 'FEC949-2003'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '9492003'
+TOP 0 -0.499999 10.04000024 270 N 122 3 1
+TOP 1 -0.499999 13.99999994 270 N 34 23 2
+#
+# CMP 105
+CMP 5 -6.4999997 -22.99999972 180 N LED1A Visual_Status_Indicator ;0=1,1=1.9000,5=0
+PRP Class 'LED'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'C:\Altium SANDBOX\Component Database\Datasheet\2343968.pdf'
+PRP Cost_1+ '0.278'
+PRP Cost_1K+ '0.141'
+PRP Created '09/03/2018'
+PRP IF_Max_(mA) '20'
+PRP IF_Typ_(mA) '20'
+PRP Last_Updated '09/03/2018'
+PRP Life 'V'
+PRP Manufacturer 'Wurth'
+PRP ManuPartNo 'ASMB-MTB0-0A3A2'
+PRP RoHS 'Y'
+PRP Source 'FEC2401105'
+PRP Supplier_1 'Farnell'
+PRP Supplier_Part_Number_1 '2401105'
+PRP View_Angle '115'
+TOP 0 -5.74999866 -21.50000018 180 N 127 17 1
+TOP 1 -5.74999866 -24.49999926 180 N 125 0 2
+TOP 2 -7.25000074 -24.49999926 180 N 124 0 3
+TOP 3 -7.25000074 -21.50000018 180 N 123 0 4
+#
+# CMP 106
+CMP 6 -56.8000007 -17.89999976 0 N J7A Serial_Debug ;0=2,1=7.7000,5=0
+PRP Class 'Connector'
+PRP Cost_1+ '0.26'
+PRP Cost_1K+ '0.24'
+PRP Created '05/06/2013'
+PRP Last_Updated '05/06/2013'
+PRP Life 'V'
+PRP Manufacturer 'JST'
+PRP ManuPartNo 'B04B-PASK-1 (LF) (SN)'
+PRP Orient 'Vertical'
+PRP Pin_Count '4'
+PRP Pitch '2mm'
+PRP RoHS 'Y'
+PRP Source 'RS512-8608'
+PRP Supplier_1 'RSComponents'
+PRP Supplier_Part_Number_1 '512-8608'
+TOP 0 -53.79999908 -17.89999976 0 N 29 0 1
+TOP 1 -55.80000016 -17.89999976 0 N 83 0 2
+TOP 2 -57.80000124 -17.89999976 0 N 82 0 3
+TOP 3 -59.79999978 -17.89999976 0 N 23 10 4
+TOP 4 -52.29999954 -16.20000062 0 N 0 18 11
+#

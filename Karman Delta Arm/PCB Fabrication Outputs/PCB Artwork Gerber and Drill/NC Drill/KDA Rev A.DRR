@@ -1,0 +1,41 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Circular PCB - Radial.PcbDoc   08/11/2025  20:41:00
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : KDA Rev A-Plated.TXT
+ASCII Non-Plated RoundHoles File : KDA Rev A-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             162       PTH        656.22mm (25.84inch)
+T2      0.8mm (31mil)                                             Round             12        PTH        196.76mm (7.75inch)
+T3      0.87mm (34mil)                                            Round             24        PTH        189.04mm (7.44inch)
+T4      0.995mm (39mil)                                           Round             6         PTH        62.68mm (2.47inch)
+T5      1.016mm (40mil)                                           Round             2         PTH        4.00mm (0.16inch)
+T6      1.4mm (55mil)                                             Round             8         PTH        76.37mm (3.01inch)
+T7      1.65mm (65mil)                                            Round             8         PTH        63.59mm (2.50inch)
+T8      4mm (157mil)                                              Round             1         PTH        0.00mm (0.00inch)
+T10     0.8mm (31mil)                                             Round             15        NPTH       64.79mm (2.55inch)
+T11     1.1mm (43mil)                                             Round             5         NPTH       138.41mm (5.45inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              243
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              243
+CounterHole : Counterholes Top
+ASCII Plated RoundHoles File : KDA Rev A--Plated.TX4
+ASCII Non-Plated RoundHoles File : KDA Rev A--NonPlated.TX4
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel              Depth          Angle
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+T9      4.254mm (167mil)                                          Round             1         PTH        0.00mm (0.00inch)       2.127mm (83.74mil)   90°
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              1
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+CounterHole Totals                                                                  1
+
+Two holes at same point : 1
+-----------------------
+697,1953
+
+Total Processing Time (hh:mm:ss) : 00:00:00

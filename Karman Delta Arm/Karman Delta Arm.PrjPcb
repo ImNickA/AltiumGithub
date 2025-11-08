@@ -293,13 +293,117 @@ DocumentUniqueId=XLWZNXXY
 DocumentPath=Project Outputs for Karman Delta Arm\Design Rule Check - Circular PCB - Radial.html
 DItemRevisionGUID=
 
+[GeneratedDocument2]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\NC Drill\KDA Rev A--NonPlated.TX4
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\NC Drill\KDA Rev A--Plated.TX4
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\NC Drill\KDA Rev A-BoardEdgeRout.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\NC Drill\KDA Rev A-NonPlated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\NC Drill\KDA Rev A-Plated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\NC Drill\KDA Rev A.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.G1
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.G2
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.G3
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.G4
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GD1
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GG1
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\NC Drill\KDA Rev A.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.REP
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.RUL
+DItemRevisionGUID=
+
 [Parameter1]
 Name=a_Variant
 Value=Standard
 
 [Parameter2]
 Name=a_Title
-Value=Karman Delta Arming Board
+Value=Karman Delta V.E.C.T.O.R. Borad
 
 [Parameter3]
 Name=a_TestSpecNo
