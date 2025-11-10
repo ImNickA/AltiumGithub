@@ -8,6 +8,10 @@ Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\P
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\attrlist
 
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\top_surface_finish\features
+
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\top_surface_finish\attrlist
+
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\dielectric_2\features
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\dielectric_2\attrlist
@@ -16,17 +20,9 @@ Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\P
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\dielectric_4\attrlist
 
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\top_surface_finish\features
-
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\top_surface_finish\attrlist
-
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\dielectric_1\features
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\dielectric_1\attrlist
-
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\top_paste\features
-
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\top_paste\attrlist
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\dielectric_5\features
 
@@ -46,9 +42,11 @@ Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\P
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\tools
 
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\gnd\features
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\drill_counterholes_top\features
 
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\gnd\attrlist
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\drill_counterholes_top\attrlist
+
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\drill_counterholes_top\tools
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\board\features
 
@@ -58,33 +56,19 @@ Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\P
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\route_tool_path\attrlist
 
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\drill_counterholes_top\features
-
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\drill_counterholes_top\attrlist
-
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\drill_counterholes_top\tools
-
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\features
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\attrlist
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\tools
 
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\x\features
-
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\x\attrlist
-
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\bottom_paste\features
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\bottom_paste\attrlist
 
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\y\features
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\top_paste\features
 
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\y\attrlist
-
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\top_solder\features
-
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\top_solder\attrlist
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\top_paste\attrlist
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\drill_guide_top_layer-bottom_layer\features
 
@@ -98,13 +82,29 @@ Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\P
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\bottom_solder\attrlist
 
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\top_layer\features
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\y\features
 
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\top_layer\attrlist
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\y\attrlist
+
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\x\features
+
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\x\attrlist
+
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\gnd__top_\features
+
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\gnd__top_\attrlist
+
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\top_solder\features
+
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\top_solder\attrlist
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\bottom_layer\features
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\bottom_layer\attrlist
+
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\top_layer\features
+
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\top_layer\attrlist
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\steps\pcb\layers\bottom_overlay\features
 
@@ -134,47 +134,47 @@ Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\P
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\matrix\matrix
 
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shaped99acd49\features
+
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shape34d3d38f\features
 
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shaped99acd49\features
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shape24233098\features
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shapefb80d421\features
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shape24233098\features
 
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shape34d3d38f\features
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shapefb80d421\features
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shaped99acd49\features
 
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shapefb80d421\features
-
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shape24233098\features
-
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shape3bb89589\features
-
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shape83d82f7e\features
-
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shapecf285812\features
-
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shape964d1e58\features
-
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shapeaa01699d\features
-
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shapec20ebc86\features
-
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shape80a185fc\features
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shape34d3d38f\features
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shape1c5fad06\features
+
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shape80a185fc\features
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shape62d980b4\features
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shape7720fa43\features
 
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shape34d3d38f\features
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shapec20ebc86\features
 
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shaped99acd49\features
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shapeaa01699d\features
+
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shape83d82f7e\features
+
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shape3bb89589\features
+
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shape964d1e58\features
+
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shapecf285812\features
+
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shape24233098\features
 
 Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shapefb80d421\features
 
-Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shape24233098\features
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shaped99acd49\features
+
+Generated File : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\PCB Fabrication Outputs\ODB++\odb\symbols\shape34d3d38f\features
 
