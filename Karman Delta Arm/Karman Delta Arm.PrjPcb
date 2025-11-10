@@ -398,88 +398,88 @@ DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev
 DItemRevisionGUID=
 
 [Parameter1]
-Name=a_Variant
-Value=Standard
+Name=a_AltiumVer
+Value=25.8
 
 [Parameter2]
-Name=a_Title
-Value=Karman Delta V.E.C.T.O.R. Borad
+Name=a_AssemDwgNo
+Value=KDA Rev A1
 
 [Parameter3]
-Name=a_TestSpecNo
-Value=-
+Name=a_AssemMbiNo
+Value=KDA Rev A1
 
 [Parameter4]
-Name=a_SolderPasteStencilNo
+Name=a_BlockDiagramNo
 Value=-
 
 [Parameter5]
-Name=a_SchRevReason
-Value=First Issue
+Name=a_BomNo
+Value=KDA Rev A1
 
 [Parameter6]
-Name=a_SchRevDate
-Value=7 Nov 2025
+Name=a_CopyrightDate
+Value=2025
 
 [Parameter7]
-Name=a_SchRevAuthor
-Value=Nick Angelov
+Name=a_PcbaNotesNo
+Value=-
 
 [Parameter8]
-Name=a_SchDwgNo
+Name=a_PcbMbiNo
 Value=KDA Rev A1
 
 [Parameter9]
-Name=a_ReworkInstructionsNo
-Value=-
+Name=a_PcbPartNo
+Value=KDA Rev A
 
 [Parameter10]
-Name=a_PcbRevReason
-Value=******
+Name=a_PcbRevAuthor
+Value=Nick Angelov
 
 [Parameter11]
 Name=a_PcbRevDate
 Value=7 Nov 2025
 
 [Parameter12]
-Name=a_PcbRevAuthor
-Value=Nick Angelov
+Name=a_PcbRevReason
+Value=******
 
 [Parameter13]
-Name=a_PcbPartNo
-Value=KDA Rev A
+Name=a_ReworkInstructionsNo
+Value=-
 
 [Parameter14]
-Name=a_PcbMbiNo
+Name=a_SchDwgNo
 Value=KDA Rev A1
 
 [Parameter15]
-Name=a_PcbaNotesNo
-Value=-
+Name=a_SchRevAuthor
+Value=Nick Angelov
 
 [Parameter16]
-Name=a_CopyrightDate
-Value=2025
+Name=a_SchRevDate
+Value=7 Nov 2025
 
 [Parameter17]
-Name=a_BomNo
-Value=KDA Rev A1
+Name=a_SchRevReason
+Value=First Issue
 
 [Parameter18]
-Name=a_BlockDiagramNo
+Name=a_SolderPasteStencilNo
 Value=-
 
 [Parameter19]
-Name=a_AssemMbiNo
-Value=KDA Rev A1
+Name=a_TestSpecNo
+Value=-
 
 [Parameter20]
-Name=a_AssemDwgNo
-Value=KDA Rev A1
+Name=a_Title
+Value=Karman Delta V.E.C.T.O.R. Board
 
 [Parameter21]
-Name=a_AltiumVer
-Value=25.8
+Name=a_Variant
+Value=Standard
 
 [Configuration1]
 Name=Sources
