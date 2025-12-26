@@ -1,0 +1,12 @@
+Board Information Report
+Filename     : C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\Circular PCB - Radial.PcbDoc
+Date         : 28/10/2025
+Time         : 21:45:58
+Time Elapsed : 00:00:00
+
+Routing Information
+    Routing completion, 93.28%
+    Connections, 372
+    Connections routed, 347
+    Connections remaining, 25
+count : 4
