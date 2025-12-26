@@ -52,7 +52,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Rocket arming system.xlsx
+DocumentPath=..\Rocket arming system.xlsx
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -86,7 +86,7 @@ GenerateClassCluster=1
 DocumentUniqueId=ABREFQLI
 
 [Document3]
-DocumentPath=Circular PCB - Radial.PcbDoc
+DocumentPath=Circular PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -103,23 +103,6 @@ GenerateClassCluster=0
 DocumentUniqueId=EXQKUGCK
 
 [Document4]
-DocumentPath=PCB.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=NCLWFBUT
-
-[Document5]
 DocumentPath=Microcontroller.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -136,7 +119,7 @@ DItemRevisionGUID=
 GenerateClassCluster=1
 DocumentUniqueId=BXYSKDMV
 
-[Document6]
+[Document5]
 DocumentPath=Output Stages.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -153,7 +136,7 @@ DItemRevisionGUID=
 GenerateClassCluster=1
 DocumentUniqueId=ZUAJHSMS
 
-[Document7]
+[Document6]
 DocumentPath=Ancillaries.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -170,58 +153,7 @@ DItemRevisionGUID=
 GenerateClassCluster=1
 DocumentUniqueId=OKSMWXCU
 
-[Document8]
-DocumentPath=Ancillary Data\Library\SamacSys.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document9]
-DocumentPath=PCB - Rectangular.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VCKDMEIY
-
-[Document10]
-DocumentPath=PCB - Rectangular Longer.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document11]
+[Document7]
 DocumentPath=Karman Delta Arm.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -238,7 +170,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document8]
 DocumentPath=Assembly Outputs.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -255,7 +187,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document9]
 DocumentPath=PCB Fabrication.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -272,7 +204,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
+[Document10]
 DocumentPath=CAN Adaptor.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -289,197 +221,89 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XLWZNXXY
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Karman Delta Arm\Design Rule Check - Circular PCB - Radial.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\NC Drill\KDA Rev A--NonPlated.TX4
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\NC Drill\KDA Rev A--Plated.TX4
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\NC Drill\KDA Rev A-BoardEdgeRout.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\NC Drill\KDA Rev A-NonPlated.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\NC Drill\KDA Rev A-Plated.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\NC Drill\KDA Rev A.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.G1
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.G2
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.G3
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.G4
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GD1
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GG1
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GM3
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\NC Drill\KDA Rev A.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.REP
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=PCB Fabrication Outputs\PCB Artwork Gerber and Drill\Gerber\KDA Rev A.RUL
-DItemRevisionGUID=
-
 [Parameter1]
-Name=a_AltiumVer
-Value=25.8
+Name=a_Variant
+Value=Standard
 
 [Parameter2]
-Name=a_AssemDwgNo
-Value=KDA Rev A1
-
-[Parameter3]
-Name=a_AssemMbiNo
-Value=KDA Rev A1
-
-[Parameter4]
-Name=a_BlockDiagramNo
-Value=-
-
-[Parameter5]
-Name=a_BomNo
-Value=KDA Rev A1
-
-[Parameter6]
-Name=a_CopyrightDate
-Value=2025
-
-[Parameter7]
-Name=a_PcbaNotesNo
-Value=-
-
-[Parameter8]
-Name=a_PcbMbiNo
-Value=KDA Rev A1
-
-[Parameter9]
-Name=a_PcbPartNo
-Value=KDA Rev A
-
-[Parameter10]
-Name=a_PcbRevAuthor
-Value=Nick Angelov
-
-[Parameter11]
-Name=a_PcbRevDate
-Value=7 Nov 2025
-
-[Parameter12]
-Name=a_PcbRevReason
-Value=******
-
-[Parameter13]
-Name=a_ReworkInstructionsNo
-Value=-
-
-[Parameter14]
-Name=a_SchDwgNo
-Value=KDA Rev A1
-
-[Parameter15]
-Name=a_SchRevAuthor
-Value=Nick Angelov
-
-[Parameter16]
-Name=a_SchRevDate
-Value=7 Nov 2025
-
-[Parameter17]
-Name=a_SchRevReason
-Value=First Issue
-
-[Parameter18]
-Name=a_SolderPasteStencilNo
-Value=-
-
-[Parameter19]
-Name=a_TestSpecNo
-Value=-
-
-[Parameter20]
 Name=a_Title
 Value=Karman Delta V.E.C.T.O.R. Board
 
+[Parameter3]
+Name=a_TestSpecNo
+Value=-
+
+[Parameter4]
+Name=a_SolderPasteStencilNo
+Value=-
+
+[Parameter5]
+Name=a_SchRevReason
+Value=-
+
+[Parameter6]
+Name=a_SchRevDate
+Value=26 Dec 2025
+
+[Parameter7]
+Name=a_SchRevAuthor
+Value=Nick Angelov
+
+[Parameter8]
+Name=a_SchDwgNo
+Value=KDA Rev B1
+
+[Parameter9]
+Name=a_ReworkInstructionsNo
+Value=-
+
+[Parameter10]
+Name=a_PcbRevReason
+Value=******
+
+[Parameter11]
+Name=a_PcbRevDate
+Value=26 Dec 2025
+
+[Parameter12]
+Name=a_PcbRevAuthor
+Value=Nick Angelov
+
+[Parameter13]
+Name=a_PcbPartNo
+Value=KDA Rev B
+
+[Parameter14]
+Name=a_PcbMbiNo
+Value=KDA Rev B1
+
+[Parameter15]
+Name=a_PcbaNotesNo
+Value=-
+
+[Parameter16]
+Name=a_CopyrightDate
+Value=2025
+
+[Parameter17]
+Name=a_BomNo
+Value=KDA Rev B1
+
+[Parameter18]
+Name=a_BlockDiagramNo
+Value=-
+
+[Parameter19]
+Name=a_AssemMbiNo
+Value=KDA Rev B1
+
+[Parameter20]
+Name=a_AssemDwgNo
+Value=KDA Rev B1
+
 [Parameter21]
-Name=a_Variant
-Value=Standard
+Name=a_AltiumVer
+Value=26.1.1
 
 [Configuration1]
 Name=Sources
@@ -850,6 +674,11 @@ OutputName9=Report Single Pin Nets
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
+OutputType10=BOM_ReportManufacturing
+OutputName10=Manufacturing Data
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1144,6 +973,8 @@ Type156=1
 Type157=1
 Type158=1
 Type159=1
+Type160=1
+Type161=1
 
 [Difference Levels]
 Type1=1
@@ -1233,6 +1064,7 @@ Type84=1
 Type85=1
 Type86=1
 Type87=1
+Type88=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1398,6 +1230,8 @@ Type160=0
 Type161=0
 Type162=1
 Type163=1
+Type164=1
+Type165=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
