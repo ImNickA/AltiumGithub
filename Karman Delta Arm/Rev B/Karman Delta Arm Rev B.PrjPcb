@@ -266,7 +266,7 @@ Value=-
 
 [Parameter6]
 Name=a_SchRevDate
-Value=10 Jan 2026
+Value=20 Jan 2026
 
 [Parameter7]
 Name=a_SchRevAuthor
@@ -286,7 +286,7 @@ Value=******
 
 [Parameter11]
 Name=a_PcbRevDate
-Value=10 Jan 2026
+Value=20 Jan 2026
 
 [Parameter12]
 Name=a_PcbRevAuthor
@@ -326,7 +326,7 @@ Value=KDA Rev B1
 
 [Parameter21]
 Name=a_AltiumVer
-Value=26.1.1
+Value=26.2.0
 
 [Configuration1]
 Name=Sources
