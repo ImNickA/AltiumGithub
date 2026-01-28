@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\Rev B\Circular PCB.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=kda rev b-plated.txt|DrillLayers=gtl,g1,g2,g3,g4,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=kda rev b-nonplated.txt|DrillLayers=gtl,g1,g2,g3,g4,gbl

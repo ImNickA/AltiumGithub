@@ -1,0 +1,475 @@
+*************************************************************
+FileName = KDA Rev B.GBR
+AutoAperture = True
+*************************************************************
+Generating : Route Tool Path
+      File : KDA Rev B.GM3
+
+    Adding Layer      : Route Tool Path
+
+
+Used DCodes :
+    D15
+    D111
+*************************************************************
+
+*************************************************************
+Generating : Board
+      File : KDA Rev B.GM1
+
+    Adding Layer      : Board
+
+
+Used DCodes :
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : KDA Rev B.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D11
+    D13
+    D14
+    D15
+    D16
+    D19
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : KDA Rev B.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D32
+    D33
+    D34
+    D35
+    D36
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D99
+    D100
+    D101
+    D102
+    D105
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : KDA Rev B.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D32
+    D33
+    D34
+    D35
+    D36
+    D48
+    D49
+    D51
+    D52
+    D54
+    D55
+    D56
+    D57
+    D58
+    D60
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D106
+    D107
+    D108
+    D109
+    D110
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : KDA Rev B.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D20
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : KDA Rev B.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : KDA Rev B.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : KDA Rev B.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D32
+    D33
+    D34
+    D35
+    D36
+    D43
+    D44
+    D45
+    D47
+    D48
+    D49
+    D85
+    D87
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+    D105
+*************************************************************
+
+*************************************************************
+Generating : GND (Bot)
+      File : KDA Rev B.G4
+
+    Adding Layer      : GND (Bot)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+*************************************************************
+
+*************************************************************
+Generating : Y
+      File : KDA Rev B.G3
+
+    Adding Layer      : Y
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+*************************************************************
+
+*************************************************************
+Generating : X
+      File : KDA Rev B.G2
+
+    Adding Layer      : X
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+*************************************************************
+
+*************************************************************
+Generating : GND (Top)
+      File : KDA Rev B.G1
+
+    Adding Layer      : GND (Top)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : KDA Rev B.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D14
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D47
+    D48
+    D49
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : KDA Rev B.GD1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D10
+    D11
+    D14
+    D17
+    D18
+    D112
+    D113
+    D114
+    D115
+    D116
+    D117
+    D118
+    D119
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : KDA Rev B.GG1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D112
+*************************************************************
+

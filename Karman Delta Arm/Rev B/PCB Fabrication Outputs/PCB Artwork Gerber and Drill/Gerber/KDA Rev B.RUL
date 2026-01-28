@@ -1,0 +1,7 @@
+DRC Rules Export File for PCB: C:\Users\adria\Documents\GitHub\AltiumGithub\Karman Delta Arm\Rev B\Circular PCB.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance board cutout|Scope=Board|Minimum=19.69
+RuleKind=Clearance|RuleName=Clearance keep out|Scope=Board|Minimum=0.00
+RuleKind=Clearance|RuleName=Clearance general|Scope=Board|Minimum=7.87
